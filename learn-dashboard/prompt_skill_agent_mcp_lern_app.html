@@ -1,0 +1,1215 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>KI verstehen: Prompt, Skill, MCP, Loop, Agent</title>
+<meta name="theme-color" content="#f7f6f3">
+<meta name="description" content="Lern-App mit 9 Lektionen vom Einstieg bis zum Profi: Wie Prompt, Skill, MCP, Loop und Agent zusammenhängen. Mit Beispielen, Quiz und Zertifikat.">
+<link rel="canonical" href="https://nosz.github.io/skill-trainer/prompt_skill_agent_mcp_lern_app.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ninox · Lern-App">
+<meta property="og:locale" content="de_DE">
+<meta property="og:locale:alternate" content="en_GB">
+<meta property="og:title" content="KI verstehen: Prompt, Skill, MCP, Loop und Agent – Lern-App">
+<meta property="og:description" content="Lern-App mit 9 Lektionen vom Einstieg bis zum Profi: Wie Prompt, Skill, MCP, Loop und Agent zusammenhängen. Mit Beispielen, Quiz und Zertifikat.">
+<meta property="og:url" content="https://nosz.github.io/skill-trainer/prompt_skill_agent_mcp_lern_app.html">
+<meta property="og:image" content="https://nosz.github.io/skill-trainer/prompt_skill_agent_mcp_lern_app_vorschau.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Vorschau der Lern-App KI verstehen: Prompt, Skill, MCP, Loop und Agent mit Kreislauf-Symbol auf blauem Hintergrund">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="KI verstehen: Prompt, Skill, MCP, Loop und Agent – Lern-App">
+<meta name="twitter:description" content="Lern-App mit 9 Lektionen vom Einstieg bis zum Profi: Wie Prompt, Skill, MCP, Loop und Agent zusammenhängen. Mit Beispielen, Quiz und Zertifikat.">
+<meta name="twitter:image" content="https://nosz.github.io/skill-trainer/prompt_skill_agent_mcp_lern_app_vorschau.jpg">
+<meta name="twitter:image:alt" content="Vorschau der Lern-App KI verstehen: Prompt, Skill, MCP, Loop und Agent mit Kreislauf-Symbol auf blauem Hintergrund">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M3.55855 6.36644e-05H15.9791C18.087 -0.0058783 20.1754 0.404171 22.1245 1.20672C24.0737 2.00926 25.8453 3.18853 27.3379 4.67695C28.8306 6.16537 30.0148 7.93369 30.8228 9.88058C31.6309 11.8275 32.0468 13.9147 32.0468 16.0226V28.4431C32.0468 29.3865 31.6721 30.2911 31.005 30.9582C30.338 31.6252 29.4333 31.9999 28.49 31.9999H16.0694C13.9653 32.0059 11.8807 31.5973 9.93444 30.7976C7.98822 29.9979 6.21858 28.8226 4.72656 27.339C3.23453 25.8554 2.04934 24.0924 1.23866 22.1507C0.427977 20.209 0.00767453 18.1267 0.00175164 16.0226V3.60202C-0.00422817 3.13115 0.0833562 2.66378 0.259423 2.22702C0.435489 1.79027 0.696532 1.39282 1.02741 1.05774C1.35828 0.722664 1.75241 0.456627 2.18691 0.275063C2.62141 0.0934998 3.08764 2.56958e-05 3.55855 6.36644e-05ZM15.9791 27.585C18.2733 27.6074 20.5224 26.9474 22.4408 25.6888C24.3591 24.4303 25.8601 22.63 26.7531 20.5166C27.6461 18.4031 27.8908 16.072 27.4561 13.8192C27.0215 11.5664 25.9271 9.49368 24.3119 7.8642C22.6967 6.23472 20.6337 5.12206 18.3849 4.66753C16.136 4.213 13.8028 4.43713 11.6816 5.31143C9.56039 6.18574 7.74689 7.67077 6.47146 9.57792C5.19602 11.4851 4.51619 13.7283 4.51832 16.0226C4.52127 19.0804 5.7342 22.0128 7.89217 24.1792C10.0501 26.3457 12.9778 27.5701 16.0356 27.585H15.9791ZM15.9791 24.0395C14.3982 24.0306 12.8553 23.5538 11.545 22.6692C10.2347 21.7846 9.21558 20.5319 8.61624 19.0689C8.0169 17.606 7.86413 15.9983 8.1772 14.4487C8.49027 12.8991 9.25515 11.4768 10.3754 10.3613C11.4957 9.24571 12.9211 8.48684 14.4721 8.18031C16.023 7.87378 17.63 8.03332 19.0904 8.63882C20.5508 9.24432 21.7992 10.2687 22.6783 11.5827C23.5573 12.8967 24.0276 14.4416 24.0299 16.0226C24.0299 17.0739 23.8228 18.1149 23.4205 19.0862C23.0182 20.0575 22.4285 20.94 21.6851 21.6834C20.9417 22.4268 20.0592 23.0165 19.0879 23.4188C18.1166 23.8211 17.0756 24.0282 16.0243 24.0282L15.9791 24.0395ZM15.9791 19.5907C16.6821 19.5907 17.3693 19.3823 17.954 18.992C18.5386 18.6017 18.9945 18.0469 19.2641 17.3976C19.5336 16.7483 19.6047 16.0338 19.4684 15.3441C19.332 14.6545 18.9944 14.0207 18.4981 13.5228C18.0018 13.025 17.3691 12.6853 16.6799 12.5468C15.9907 12.4083 15.2759 12.4771 14.6258 12.7446C13.9757 13.0121 13.4194 13.4662 13.0272 14.0496C12.635 14.633 12.4245 15.3196 12.4223 16.0226C12.4223 16.4935 12.5157 16.9597 12.6973 17.3942C12.8789 17.8287 13.1449 18.2228 13.48 18.5537C13.8151 18.8846 14.2125 19.1456 14.6493 19.3217C15.086 19.4978 15.5534 19.5854 16.0243 19.5794L15.9791 19.5907Z' fill='%234970ff'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#f7f6f3;--card:#fff;--ink:#1f2026;--mute:#4d4f54;--line:#d8d7d1;--brandbg:#e6ecff;--brand:#4970ff;--brand2:#2f52e0;--accent:#ff9619;--ok:#14a373;--okbg:#e5f7ef;--bad:#d93a40;--badbg:#fdeded;--hero1:#fff;--hero2:#fff;--code:#f1f0ec}
+@media(prefers-color-scheme:dark){:root{--bg:#17181c;--card:#202228;--ink:#f2f1ee;--mute:#b3b5bb;--line:#383a42;--brandbg:#232a4a;--brand:#6f8cff;--brand2:#9fb2ff;--accent:#ffa940;--ok:#3fcf9b;--okbg:#10352b;--bad:#f07a7e;--badbg:#3a1d20;--hero1:#202228;--hero2:#202228;--code:#1a1b20}}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%}
+body{background:var(--bg);color:var(--ink);font:16px/1.55 Inter,"Segoe UI",system-ui,-apple-system,sans-serif;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+main{max-width:760px;margin:0 auto;padding:16px 16px 44px}
+h1{font-size:clamp(1.7rem,5vw,2.3rem);line-height:1.15;margin:6px 0 10px;font-weight:800;letter-spacing:-.02em}
+h2{font-size:1.25rem;line-height:1.3;margin:0 0 16px;font-weight:700}
+p{margin:0 0 14px;color:var(--mute)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:22px;box-shadow:0 1px 2px rgba(11,27,52,.04),0 8px 24px rgba(11,27,52,.05)}
+button{font:inherit;cursor:pointer;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);padding:14px 16px;text-align:left;width:100%;margin-bottom:10px;min-height:50px;transition:border-color .15s,background .15s}
+button:focus-visible{outline:3px solid var(--brand);outline-offset:2px}
+button.primary{background:var(--brand);border-color:var(--brand);color:#fff;text-align:center;font-weight:700}
+button.primary:hover:not(:disabled){background:var(--brand2)}button.primary:disabled{opacity:.5;cursor:not-allowed}
+button.ghost{text-align:center;color:var(--mute);background:transparent}
+.opt:hover:not(:disabled){border-color:var(--brand)}
+.opt.ok{background:var(--okbg);border-color:var(--ok);color:var(--ink)}.opt.bad{background:var(--badbg);border-color:var(--bad);color:var(--ink)}.opt:disabled{cursor:default}
+.opt{display:flex;align-items:flex-start;gap:12px}.opt::before{flex:none;content:attr(data-k);display:inline-grid;place-items:center;width:28px;height:28px;margin:0;border:1px solid var(--line);border-radius:50%;font-size:.85rem;font-weight:700;color:var(--mute);background:var(--bg)}
+.opt.ok::before{background:var(--ok);border-color:var(--ok);color:#fff}.opt.bad::before{background:var(--bad);border-color:var(--bad);color:#fff}
+.hero{background:linear-gradient(135deg,var(--hero1) 0%,var(--hero2) 100%);color:#fff;border-radius:20px;padding:22px 20px 20px;margin-bottom:16px}
+.hero p{color:rgba(255,255,255,.84)}.hero h1{color:#fff}
+.eyebrow{display:inline-block;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:rgba(255,255,255,.14);border-radius:999px;padding:4px 12px}
+.lang{display:flex;gap:6px;justify-content:flex-end;float:right}
+.lang button{width:auto;margin:0;min-height:34px;padding:5px 13px;text-align:center;font-size:.85rem;background:transparent;color:#fff;border-color:rgba(255,255,255,.4)}
+.lang button[aria-pressed=true]{background:#fff;color:var(--hero1);border-color:#fff}
+.ov{display:flex;align-items:center;gap:12px;margin:14px 0 10px;font-size:.9rem;color:rgba(255,255,255,.85)}
+.ovb{flex:1;height:8px;border-radius:4px;background:rgba(255,255,255,.22);overflow:hidden}.ovb i{display:block;height:100%;width:0;background:var(--accent);transition:width .3s}
+.rank{display:inline-block;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:999px;padding:3px 12px;font-size:.88rem}
+.why{background:rgba(255,255,255,.1);border-radius:14px;padding:14px 16px;margin:14px 0 6px}.why h2{color:#fff;font-size:1.05rem;margin:0 0 6px}.why p{margin:0 0 8px;font-size:.93rem}.why ul{margin:0;padding-left:20px;font-size:.92rem;color:rgba(255,255,255,.9)}.why li{margin-bottom:6px}.why .pt{margin:0 0 12px}.why .pt b{display:block;margin-bottom:4px}.why .pt p{margin:0 0 5px;font-size:.9rem;color:rgba(255,255,255,.92)}.tag{display:inline-block;margin-right:8px;padding:1px 8px;border-radius:999px;background:rgba(255,255,255,.2);color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;vertical-align:1px}.why b{color:#fff}
+.hero #note{font-size:.88rem;margin-top:10px;margin-bottom:0}
+.sec{margin:22px 4px 10px;font-size:.8rem;letter-spacing:.07em;text-transform:uppercase;color:var(--mute);font-weight:800}
+.sec.pro{color:var(--accent)}.sec.pro::after{content:"PRO";margin-left:10px;font-size:.7rem;background:var(--accent);color:#fff;border-radius:6px;padding:2px 7px;letter-spacing:.05em}
+.lv{margin-bottom:8px}.lv button{margin:0;display:flex;gap:14px;align-items:center}.lv button:disabled{opacity:.5;cursor:not-allowed}
+.lv button:hover:not(:disabled){border-color:var(--brand)}
+.nr{flex:none;width:38px;height:38px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-weight:700}
+.lv .done .nr{background:var(--ok);border-color:var(--ok);color:#fff}.lv small{display:block;color:var(--mute)}
+.meta{display:flex;justify-content:space-between;font-size:.85rem;color:var(--mute);margin-bottom:8px;font-weight:600}
+.bar{display:flex;gap:4px;margin:0 0 20px}.seg{flex:1;height:8px;border-radius:4px;background:var(--line)}
+.seg.ok{background:var(--ok)}.seg.bad{background:var(--bad)}.seg.cur{background:var(--brand)}.seg.now{outline:2px solid var(--brand);outline-offset:1px}
+.fb{margin:8px 0 14px;padding:13px 15px;border-radius:12px;background:var(--bg);border-left:4px solid var(--brand);font-size:.95rem}
+.score{font-size:3.2rem;font-weight:800;line-height:1;margin:6px 0 4px;letter-spacing:-.02em}
+.lesson{background:var(--bg);border-radius:12px;padding:16px 18px;margin-bottom:16px}.lesson p{color:var(--ink);margin:0 0 10px}.lesson p:last-child{margin:0}
+.lesson pre{margin:0 0 10px;padding:12px 14px;background:var(--code);border:1px solid var(--line);border-radius:10px;font:.84rem/1.55 ui-monospace,Menlo,Consolas,monospace;overflow-x:auto;color:var(--ink)}
+.rev{border-top:1px solid var(--line);padding:10px 0;font-size:.95rem}.rev b{display:block}.rev span{color:var(--mute)}
+.hint{font-size:.8rem;text-align:center;margin:4px 0 0}
+.ex{text-align:center;font-weight:700;color:var(--brand);border:2px solid var(--brand);background:var(--card)}.ex:hover{background:var(--bg)}
+.exbox{margin:0 0 14px;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:var(--card)}
+.exh{padding:9px 14px;background:var(--bg);border-bottom:1px solid var(--line);font:600 .82rem/1.4 ui-monospace,Menlo,Consolas,monospace;color:var(--mute)}
+.exh::before{content:"● ● ●";letter-spacing:2px;margin-right:12px;color:var(--line)}
+.exc{padding:6px 14px 12px}
+.plabel{font-size:.74rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--brand);margin:12px 0 5px}
+.code{margin:0 0 4px;padding:11px 13px;background:var(--code);border:1px solid var(--line);border-radius:8px;font:.83rem/1.6 ui-monospace,Menlo,Consolas,monospace;white-space:pre-wrap;word-break:break-word;color:var(--ink)}
+.code.fm{border-left:4px solid var(--brand)}.code.bd{border-left:4px solid var(--accent)}
+.code .pr{color:var(--accent);font-weight:700}.code .k{color:var(--brand);font-weight:700}.code .hd{font-weight:700}.code .who{font-weight:700;color:var(--brand)}
+.code .okc{color:var(--ok);font-weight:700}.code .badc{color:var(--bad);font-weight:700}
+.exn{margin:0;padding:11px 14px;border-top:1px solid var(--line);font-size:.9rem;color:var(--ink);background:var(--bg)}.exn::before{content:attr(data-l) " · ";font-weight:700;color:var(--brand)}
+.slot{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;border:1px dashed var(--line);border-radius:12px;padding:8px 10px;margin-bottom:8px;min-height:56px}
+.slot .sl{flex:1 1 150px;font-size:.92rem;color:var(--mute)}.slot .drop{flex:1 1 150px;min-height:38px;display:flex}
+.slot.over{border-color:var(--brand);background:var(--bg)}.slot.ok{border:2px solid var(--ok);background:var(--okbg)}.slot.bad{border:2px solid var(--bad);background:var(--badbg)}
+.pool{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;min-height:52px;padding:8px;border:1px dashed var(--line);border-radius:12px}
+.chip{width:auto;margin:0;min-height:40px;padding:8px 12px;border-radius:10px;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none;font-size:.9rem;background:var(--card)}
+.chip.sel{outline:3px solid var(--brand)}.chip:disabled{cursor:default;color:var(--ink)}
+.chip.dragging{position:fixed;z-index:20;pointer-events:none;box-shadow:0 6px 18px rgba(0,0,0,.28);opacity:.95}
+.src{margin:0 0 16px;padding:12px 16px;border:1px solid var(--line);border-radius:12px;background:var(--card);font-size:.9rem}.src h3{margin:0 0 6px;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}.src h4{margin:10px 0 4px;font-size:.9rem}.src ul{margin:0;padding-left:20px}.src li{margin:2px 0}.src a,.useful a{color:var(--brand);font-weight:600;overflow-wrap:anywhere}.useful{margin:18px 0 8px;padding:12px 14px;border:1px solid var(--line);border-radius:14px;background:var(--card)}.useful h2{margin:0 0 4px;font-size:1rem}.useful p{margin:6px 0 0;font-size:.82rem;color:var(--mute)}.useful ul{margin:0;padding:0;list-style:none;font-size:.9rem}.useful li{margin:0;padding:8px 0;border-top:1px solid var(--line)}.useful li:first-child{border-top:0}.useful li small{display:block;font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--mute)}.useful li span{display:block;color:var(--mute);font-size:.82rem;line-height:1.35}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin:-6px 0 16px;padding-bottom:12px;border-bottom:1px solid var(--line)}.navb{display:inline-flex;align-items:center;gap:6px;width:auto;margin:0;min-height:38px;padding:6px 12px 6px 8px;border-radius:10px;font-size:.9rem;font-weight:600;color:var(--brand);background:transparent;border-color:transparent;flex:none}.navb:hover{background:var(--bg);border-color:var(--line)}.navl{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:.85rem;font-weight:600;color:var(--mute)}
+.exu{margin:0;padding:10px 14px;border-top:1px solid var(--line);font-size:.88rem;background:var(--card)}.exu a{color:var(--brand);font-weight:600}
+footer{text-align:center;font-size:.8rem;color:var(--mute);margin-top:22px}
+.hide{display:none}
+
+.hero{background:var(--card);color:var(--ink);border:1px solid var(--line);box-shadow:none;padding:24px 20px 20px}
+.hero h1{color:var(--ink);font-size:clamp(1.8rem,6vw,2.5rem);margin:14px 0 8px}
+.hero p{color:var(--mute)}
+.eyebrow{background:var(--brandbg);color:var(--brand)}
+.lang button{color:var(--mute);border-color:var(--line)}
+.lang button[aria-pressed=true]{background:var(--brand);color:#fff;border-color:var(--brand)}
+.ov{color:var(--mute)}.ovb{background:var(--line)}
+.rank{border-color:var(--line);color:var(--ink);background:transparent}
+.why{background:transparent;border-radius:0;padding:0;margin:18px 0 8px}
+.why .pt{margin:0 0 14px;padding:2px 0 2px 14px;border-left:3px solid var(--brand)}
+.why .pt b{display:block;margin:0 0 2px;color:var(--ink);font-size:1.02rem}
+.why .pt p{margin:0;font-size:.95rem;color:var(--mute)}
+.lv button small:empty{display:none}
+.card{box-shadow:none}
+.sec{color:var(--mute);font-size:.8rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+/* 3.6.0 Motivation: Nutzen vorn, Als-Nächstes, Feiern */
+.hero #cta{margin:10px 0 6px;min-height:54px;font-size:1.05rem;border-radius:14px}
+.lv button.next{border-color:var(--brand);box-shadow:0 0 0 3px var(--brandbg)}
+.badge{display:inline-block;margin-left:8px;padding:1px 9px;border-radius:999px;background:var(--brand);color:#fff;font-size:.68rem;font-style:normal;font-weight:700;letter-spacing:.04em;text-transform:uppercase;vertical-align:2px}
+.gain{margin:-4px 0 16px;padding:12px 14px;border-radius:12px;background:var(--brandbg);color:var(--ink)}
+.gain b{display:block;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--brand);margin-bottom:2px}
+.gain span{display:block;font-weight:600}
+.gain small{display:block;margin-top:6px;color:var(--mute);font-size:.82rem}
+.confetti{position:fixed;inset:0;pointer-events:none;overflow:hidden;z-index:60}
+.confetti i{position:absolute;top:-16px;width:8px;height:14px;border-radius:2px;animation:fall 2s ease-in forwards}
+@keyframes fall{to{transform:translate3d(var(--dx),110vh,0) rotate(var(--rot))}}
+@keyframes pop{0%{transform:scale(.7);opacity:0}60%{transform:scale(1.1)}100%{transform:scale(1);opacity:1}}
+.score.pass{animation:pop .5s ease-out;color:var(--ok)}
+@media(prefers-reduced-motion:reduce){.confetti{display:none}.score.pass{animation:none}}
+
+.vs{display:grid;gap:10px;margin:6px 0 10px}
+@media(min-width:560px){.vs{grid-template-columns:1fr 1fr}}
+.vsr{padding:12px 14px;border-radius:12px;border:1px solid var(--line);background:var(--bg)}
+.vsr b{display:block;font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;margin-bottom:2px}
+.vsr span{font-size:.92rem;color:var(--ink)}
+.vsr.no b{color:var(--bad)}
+.vsr.yes{border-color:var(--ok);background:var(--okbg)}.vsr.yes b{color:var(--ok)}
+/* 3.10.0 Grafiken im Start-Kapitel */
+.gfx{margin:14px 0}
+.gh{margin:26px 0 8px;font-size:1.08rem;color:var(--ink)}
+.leg{display:flex;gap:12px;align-items:flex-start;margin:0 0 10px;padding:10px 12px;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+.leg i{flex:none;display:grid;place-items:center;width:26px;height:26px;border-radius:50%;background:var(--brand);color:#fff;font-style:normal;font-size:.8rem;font-weight:700}
+.leg b{display:block;margin:0 0 2px;color:var(--ink);font-size:.98rem}.leg span{display:block;color:var(--mute);font-size:.93rem;line-height:1.4}
+.gfx svg{width:100%;height:auto;display:block;max-width:460px;margin:0 auto}
+.gfx .bx{fill:var(--card);stroke:var(--line);stroke-width:1.5}.gfx .bg{fill:var(--bg);stroke:var(--line)}.gfx .sb{fill:var(--bg)}.gfx .ln{stroke:var(--line);stroke-width:1.5}
+.gfx text{font-family:inherit}.gfx .t{fill:var(--ink);font-size:13px}.gfx .m{fill:var(--mute)}.gfx .t.s{font-size:11px}.gfx .mb{fill:var(--line)}.gfx .bd{fill:var(--brand)}
+.gfx .num{fill:#fff;font-size:11px;font-weight:700;text-anchor:middle}.gfx .ic{fill:none;stroke:var(--mute);stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.gfx .ico{fill:none;stroke:var(--brand);stroke-width:2;stroke-linejoin:round}.gfx .ar2{fill:none;stroke:var(--mute);stroke-width:2;stroke-linecap:round;stroke-linejoin:round}.gfx .t.b{fill:var(--brand)}
+/* 3.2.2 Feinschliff + Handy */
+html{-webkit-text-size-adjust:100%}
+button,a{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.card{border-radius:18px}
+.hero{box-shadow:0 10px 28px rgba(11,27,52,.18)}
+.lv button{padding:14px 16px;border-radius:14px}
+.lv button:not(:disabled)::after{content:"›";margin-left:auto;font-size:1.5rem;line-height:1;color:var(--mute);flex:none}
+.lv button.done{border-color:var(--ok)}
+.lv button:disabled{background:var(--bg)}
+.opt{line-height:1.45}
+.opt:active:not(:disabled),.lv button:active:not(:disabled){transform:scale(.99)}
+.useful li a{display:inline-flex;align-items:center;gap:6px;min-height:32px}
+.useful li a::after,.src a::after,.exu a::after{content:"↗";font-size:.85em}
+.src li{margin:6px 0}.src a{display:inline-block;padding:4px 0}
+.toast{position:fixed;left:12px;right:12px;bottom:calc(14px + env(safe-area-inset-bottom));max-width:560px;margin:0 auto;z-index:50;background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:12px;font-size:.9rem;line-height:1.4;overflow-wrap:anywhere;box-shadow:0 8px 24px rgba(0,0,0,.3)}
+.toast.hide{display:none}
+@media(hover:none){.opt:hover:not(:disabled),.lv button:hover:not(:disabled){border-color:var(--line)}}
+@media(max-width:560px){
+  body{font-size:16px}
+  main{padding:10px 10px calc(28px + env(safe-area-inset-bottom))}
+  .card{padding:16px 14px;border-radius:16px}
+  .hero{padding:16px 14px 14px;border-radius:16px}
+  h1{font-size:1.65rem}
+  h2{font-size:1.12rem;margin-bottom:12px}
+  .lang button{min-height:40px;min-width:48px}
+  .why{padding:12px 12px}
+  .why li{margin-bottom:10px}
+  .nav{margin:-2px 0 12px}
+  .navb{min-height:44px}
+  .navl{font-size:.8rem}
+  button{min-height:52px}
+  .opt{padding:13px 12px}
+  .lesson{padding:14px 14px}
+  .code,.lesson pre{font-size:.8rem}
+  .exh{font-size:.78rem}
+  .sec{margin:20px 2px 8px}
+  #next,#start,#main,#ddcheck{position:sticky;bottom:calc(8px + env(safe-area-inset-bottom));z-index:5;box-shadow:0 6px 18px rgba(11,27,52,.22)}
+  .chip{min-height:44px;padding:10px 12px;-webkit-touch-callout:none}
+  .hint{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+body{font-family:"Noto Sans","Segoe UI",system-ui,-apple-system,sans-serif;color:var(--mute);font-size:16px;line-height:1.6}
+h1,h2,h3{color:var(--ink);font-weight:400;letter-spacing:-.03em}
+h1{font-weight:400;line-height:1.1}h2{font-size:1.4rem;font-weight:500}
+.gh{font-size:1.15rem;font-weight:600;letter-spacing:-.01em;margin:30px 0 10px;padding-top:18px;border-top:1px solid var(--line)}.lesson>.gh:first-child,.lesson>p:first-child+.gh{border-top:0}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.logolink{display:block;flex:none;border-radius:6px}.logolink:focus-visible{outline:3px solid var(--brand);outline-offset:3px}.logolink:hover .lw{fill:var(--brand2)}.logo{height:28px;width:auto;display:block;flex:none}.logo .lw{fill:var(--ink)}.logo .li{fill:#4970ff}
+.lang{float:none}
+.hero{border-radius:24px;box-shadow:none;padding:24px 22px 20px}
+.hero h1{font-size:clamp(2rem,7vw,2.75rem);margin:8px 0 10px}
+.hero p{color:var(--mute);font-size:1.05rem}
+.eyebrow{background:transparent;color:var(--brand2);padding:0;border-radius:0;font-size:.78rem;font-weight:600;letter-spacing:.08em}
+.card{border-radius:24px;border-color:var(--line)}
+button{border-radius:12px;border-color:var(--line)}
+button.primary,.hero #cta{border-radius:4px;background:var(--brand);border-color:var(--brand);font-weight:600}
+button.primary:hover:not(:disabled){background:var(--brand2);border-color:var(--brand2)}
+.hero #cta{font-size:1.02rem}
+.lang button{border-radius:4px;font-weight:600}
+.lang button[aria-pressed=true]{background:var(--brand);border-color:var(--brand);color:#fff}
+.ovb{height:6px;background:var(--line)}.ovb i{background:var(--brand)}
+.rank{border-radius:4px;background:var(--bg);font-weight:600}
+.why .pt{border-left:0;padding:14px 16px;margin:0 0 10px;background:var(--bg);border-radius:12px}
+.why .pt b{font-weight:600}
+.vsr{border-radius:12px;background:var(--bg)}
+.sec{color:var(--ink);font-weight:600;letter-spacing:.08em}
+.lv button{border-radius:12px;background:var(--card)}
+.lv button:disabled{background:var(--bg)}
+.nr{border-color:var(--line);color:var(--ink)}
+.lv button.next{border-color:var(--brand);box-shadow:0 0 0 3px var(--brandbg)}
+.badge{border-radius:4px;background:var(--accent);color:#1f2026}
+.lesson{background:var(--bg);border-radius:12px}.lesson p{color:var(--ink)}
+.gain{background:var(--brandbg);border-radius:12px}.gain b{color:var(--brand2)}
+.plabel,.exn::before,.navb,.src a,.useful a,.exu a,.ex{color:var(--brand2)}
+.ex{border-color:var(--brand);border-radius:4px}
+.leg i,.gfx .bd{background:var(--brand)}
+.leg{border-radius:12px}
+.exbox,.src,.useful,.fb{border-radius:12px}
+.opt{border-radius:12px}
+.opt:hover:not(:disabled){border-color:var(--brand)}
+.seg.cur,.seg.now{background:var(--brand)}.seg.now{outline-color:var(--brand)}
+.toast{background:var(--ink);color:var(--card)}
+footer{color:var(--mute)}
+.useful{padding:0}
+.fold summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;padding:10px 16px;font-weight:600;font-size:1.02rem;color:var(--ink)}
+.fold summary::-webkit-details-marker{display:none}
+.fold summary::after{content:"+";flex:none;display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--brandbg);color:var(--brand2);font-size:1.2rem;line-height:1}
+.fold[open] summary::after{content:"\2212"}
+.fold summary:focus-visible{outline:3px solid var(--brand);outline-offset:-3px;border-radius:12px}
+.foldb{padding:0 16px 14px}
+.kh{margin:14px 0 6px;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);font-weight:600}
+.kr{display:flex;gap:12px;align-items:flex-start;padding:8px 0;border-top:1px solid var(--line)}.kh+.kr{border-top:0}
+.kr kbd{flex:none;min-width:92px;text-align:center;padding:3px 8px;border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;background:var(--bg);color:var(--ink);font:600 .82rem/1.5 ui-monospace,Menlo,Consolas,monospace}
+.kr span{font-size:.92rem;color:var(--mute);line-height:1.4}
+.foldb p{margin:10px 0 0;font-size:.82rem}.foldb p a{font-weight:600}
+@media(max-width:560px){.kr{flex-direction:column;gap:4px}.kr kbd{align-self:flex-start}}.appbar{position:sticky;top:0;z-index:30;background:var(--bg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top)}
+.appin{max-width:760px;margin:0 auto;padding:8px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.appbar .lang button{min-height:36px;margin:0}
+@media(max-width:560px){.appin{padding:6px 10px}.appbar .lang button{min-height:40px}}#start{position:sticky;bottom:calc(10px + env(safe-area-inset-bottom));z-index:5;box-shadow:0 6px 18px rgba(31,32,38,.22)}
+.leg{border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;padding:9px 2px;margin:0;gap:10px;align-items:baseline}
+.gfx + .leg{border-top:0}
+.leg i{width:22px;height:22px;font-size:.72rem}
+.leg b{display:inline;margin:0 6px 0 0;font-size:.95rem}
+.leg span{display:inline;font-size:.92rem}
+.leg > div{min-width:0}.lesson .lfold{border:1px solid var(--line);border-radius:12px;background:var(--card);margin:12px 0}.lesson .lfold .foldb{padding:2px 14px 12px}.lesson .lfold .foldb p{font-size:.95rem}
+.hero .lead{margin:0 0 16px;padding:12px 14px;border-left:4px solid var(--brand);background:var(--brandbg);border-radius:0 12px 12px 0;color:var(--ink);font-weight:600;font-size:1rem;line-height:1.45}
+.lfold summary{min-height:60px}
+.lfold summary b{display:block;font-weight:600;color:var(--ink)}
+.lfold summary small{display:block;margin-top:2px;font-size:.8rem;font-weight:600;color:var(--brand2)}
+.lfold[open] summary small{display:none}
+.lfold:not([open]){border-color:var(--brand);box-shadow:0 0 0 3px var(--brandbg)}
+.lfold:not([open]) summary::after{animation:nudge 2.6s ease-in-out infinite}
+.lfold[open] .foldb{animation:foldin .28s ease-out}
+@keyframes nudge{0%,55%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(73,112,255,0)}68%{transform:scale(1.18);box-shadow:0 0 0 7px rgba(73,112,255,.2)}82%{transform:scale(1);box-shadow:0 0 0 0 rgba(73,112,255,0)}}
+@keyframes foldin{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.lfold:not([open]) summary::after,.lfold[open] .foldb{animation:none}}.crumb{max-width:760px;margin:0 auto;padding:0 16px 8px;display:flex;align-items:center;gap:4px;font-size:.84rem;color:var(--mute);white-space:nowrap;overflow:hidden}
+.crumb button{width:auto;min-height:32px;margin:0;padding:2px 6px;border:0;border-radius:6px;background:transparent;color:var(--brand2);font-weight:600;text-align:left;flex:none}
+.crumb button:hover{background:var(--brandbg)}
+.crumb .sep{color:var(--mute);opacity:.6;flex:none}
+.crumb .cur{color:var(--ink);font-weight:600;padding:0 6px;overflow:hidden;text-overflow:ellipsis}
+.crumb .mute{padding:0 6px}
+.score small{font-size:1rem;font-weight:600;color:var(--mute);margin-left:10px;letter-spacing:0}
+.crumb .prog{margin-left:auto;padding-left:10px;font-weight:500}
+@media(max-width:560px){.crumb{padding:0 10px 6px}}.fl{display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:6px}.fl .logo{height:20px}
+@media(max-width:560px){.hero{border-radius:20px;padding:18px 16px 16px}.card{border-radius:20px}.logo{height:24px}}
+/* 1.1.0 Zertifikat */
+.certlab{display:block;margin:14px 0 6px;font-weight:700;font-size:.92rem}
+.certin{width:100%;box-sizing:border-box;min-height:48px;padding:10px 14px;border:2px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:inherit;font-size:1.05rem}
+.certin:focus-visible{outline:3px solid var(--brand);outline-offset:2px;border-color:var(--brand)}
+.certmsg{margin:8px 0 0;color:var(--bad);font-weight:600;font-size:.92rem}
+.certprev{margin:16px 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 6px 22px rgba(31,32,38,.10)}
+.certprev svg{display:block;width:100%;height:auto}
+.lv button.certb .nr{background:var(--accent);color:#fff}
+.lv button.certb.ready{border-color:var(--accent);box-shadow:0 0 0 3px rgba(255,150,25,.18)}.vsr,.vsr *{overflow-wrap:anywhere;max-width:100%}
+</style>
+</head>
+<body>
+<header class="appbar"><div class="appin"><a class="logolink" href="https://ninox.com/de" target="ninox" aria-label="Ninox (ninox.com)"><svg class="logo" viewBox="0 0 120 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ninox"><path class="lw" d="M43.5368 8.55908L44.0449 10.1399C44.5396 9.35514 45.2346 8.7165 46.0583 8.28978C46.882 7.86306 47.8045 7.66369 48.7309 7.71222C51.6892 7.71222 54.7379 9.3156 54.7379 14.3967V23.2605C54.7379 23.4671 54.6558 23.6653 54.5097 23.8114C54.3636 23.9575 54.1654 24.0396 53.9588 24.0396H51.215C51.0084 24.0396 50.8102 23.9575 50.6641 23.8114C50.518 23.6653 50.4359 23.4671 50.4359 23.2605V14.6113C50.4678 14.2295 50.4167 13.8453 50.2861 13.4851C50.1555 13.1249 49.9484 12.7973 49.6791 12.5248C49.4098 12.2523 49.0846 12.0413 48.726 11.9064C48.3675 11.7715 47.9839 11.7158 47.6017 11.7433C47.158 11.7389 46.7182 11.8267 46.3102 12.0011C45.9021 12.1755 45.5347 12.4327 45.2312 12.7564C44.9276 13.0801 44.6946 13.4633 44.5468 13.8817C44.3989 14.3001 44.3396 14.7446 44.3724 15.1871V23.2492C44.3724 23.3515 44.3522 23.4528 44.3131 23.5474C44.2739 23.6419 44.2166 23.7278 44.1442 23.8001C44.0719 23.8725 43.986 23.9299 43.8914 23.969C43.7969 24.0082 43.6956 24.0283 43.5933 24.0283H40.8382C40.6316 24.0283 40.4334 23.9462 40.2873 23.8001C40.1412 23.654 40.0591 23.4558 40.0591 23.2492V8.7962C40.0591 8.58957 40.1412 8.3914 40.2873 8.24529C40.4334 8.09918 40.6316 8.01709 40.8382 8.01709H42.7916C42.9573 8.01644 43.1189 8.06864 43.2529 8.1661C43.387 8.26357 43.4864 8.40123 43.5368 8.55908Z"/><path class="lw" d="M64.1336 8.79669V23.261C64.1336 23.4676 64.0515 23.6658 63.9054 23.8119C63.7593 23.958 63.5611 24.0401 63.3545 24.0401H60.7575C60.5509 24.0401 60.3527 23.958 60.2066 23.8119C60.0605 23.6658 59.9784 23.4676 59.9784 23.261V12.2293C59.9768 12.0715 59.9274 11.918 59.8366 11.789C59.7459 11.6599 59.6182 11.5615 59.4703 11.5066L58.6121 11.2018C58.4642 11.1469 58.3365 11.0484 58.2457 10.9194C58.155 10.7904 58.1056 10.6368 58.104 10.4791V8.79669C58.104 8.69437 58.1242 8.59306 58.1633 8.49854C58.2025 8.40401 58.2599 8.31812 58.3322 8.24577C58.4045 8.17343 58.4904 8.11604 58.585 8.07688C58.6795 8.03773 58.7808 8.01758 58.8831 8.01758H63.3997C63.5984 8.02912 63.7851 8.11627 63.9216 8.26115C64.0581 8.40603 64.134 8.59765 64.1336 8.79669Z"/><path class="lw" d="M64.1098 3.60557C64.098 4.23662 63.8397 4.83801 63.3903 5.28113C62.9408 5.72426 62.3358 5.97393 61.7047 5.97677C61.0758 5.97677 60.4727 5.72695 60.028 5.28226C59.5833 4.83758 59.3335 4.23445 59.3335 3.60557C59.3335 2.97669 59.5833 2.37357 60.028 1.92888C60.4727 1.4842 61.0758 1.23438 61.7047 1.23438C62.3358 1.23721 62.9408 1.48689 63.3903 1.93001C63.8397 2.37313 64.098 2.97452 64.1098 3.60557Z"/><path class="lw" d="M72.6616 8.55908L73.1697 10.1399C73.6644 9.35514 74.3594 8.7165 75.183 8.28978C76.0067 7.86306 76.9293 7.66369 77.8556 7.71222C80.814 7.71222 83.8627 9.3156 83.8627 14.3967V23.2605C83.8627 23.4671 83.7806 23.6653 83.6345 23.8114C83.4884 23.9575 83.2902 24.0396 83.0836 24.0396H80.3511C80.1444 24.0396 79.9462 23.9575 79.8001 23.8114C79.654 23.6653 79.5719 23.4671 79.5719 23.2605V14.6113C79.6032 14.2335 79.5531 13.8534 79.425 13.4967C79.297 13.1399 79.0941 12.8147 78.8298 12.5429C78.5655 12.2712 78.2461 12.0592 77.893 11.9212C77.54 11.7833 77.1615 11.7226 76.783 11.7433C76.3392 11.7389 75.8994 11.8267 75.4914 12.0011C75.0833 12.1755 74.7159 12.4327 74.4124 12.7564C74.1088 13.0801 73.8758 13.4633 73.728 13.8817C73.5802 14.3001 73.5208 14.7446 73.5536 15.1871V23.2492C73.5536 23.3515 73.5335 23.4528 73.4943 23.5474C73.4552 23.6419 73.3978 23.7278 73.3254 23.8001C73.2531 23.8725 73.1672 23.9299 73.0727 23.969C72.9781 24.0082 72.8768 24.0283 72.7745 24.0283H70.0081C69.9058 24.0283 69.8045 24.0082 69.71 23.969C69.6154 23.9299 69.5295 23.8725 69.4572 23.8001C69.3849 23.7278 69.3275 23.6419 69.2883 23.5474C69.2492 23.4528 69.229 23.3515 69.229 23.2492V8.7962C69.229 8.69389 69.2492 8.59258 69.2883 8.49805C69.3275 8.40352 69.3849 8.31764 69.4572 8.24529C69.5295 8.17294 69.6154 8.11555 69.71 8.0764C69.8045 8.03724 69.9058 8.01709 70.0081 8.01709H71.9277C72.0914 8.01882 72.2505 8.07212 72.3823 8.16942C72.514 8.26671 72.6118 8.40306 72.6616 8.55908Z"/><path class="lw" d="M103.804 16.0351C103.804 17.6787 103.316 19.2855 102.403 20.6521C101.49 22.0188 100.192 23.084 98.6734 23.713C97.1548 24.342 95.4839 24.5065 93.8718 24.1859C92.2597 23.8652 90.7789 23.0737 89.6167 21.9115C88.4545 20.7492 87.663 19.2685 87.3423 17.6564C87.0216 16.0443 87.1862 14.3734 87.8152 12.8548C88.4442 11.3363 89.5094 10.0383 90.876 9.12518C92.2427 8.21201 93.8494 7.72461 95.4931 7.72461C97.6972 7.72461 99.811 8.60018 101.37 10.1587C102.928 11.7172 103.804 13.831 103.804 16.0351ZM95.4931 11.8799C94.6629 11.8506 93.843 12.0701 93.1385 12.5103C92.434 12.9505 91.8772 13.5912 91.5395 14.3502C91.2019 15.1091 91.0988 15.9517 91.2435 16.7697C91.3882 17.5877 91.7742 18.3437 92.3517 18.9407C92.9293 19.5378 93.6721 19.9486 94.4849 20.1203C95.2976 20.292 96.1431 20.2169 96.9129 19.9046C97.6826 19.5923 98.3414 19.057 98.8047 18.3675C99.268 17.678 99.5146 16.8658 99.5128 16.0351C99.5279 14.9499 99.1121 13.9031 98.3564 13.1241C97.6007 12.3451 96.5669 11.8977 95.4818 11.8799H95.4931Z"/><path class="lw" d="M108.733 8.01758C108.867 8.01849 109 8.05434 109.116 8.12163C109.233 8.18892 109.33 8.28534 109.399 8.40149L112.256 13.2229H112.312L115.18 8.40149C115.248 8.28534 115.346 8.18892 115.462 8.12163C115.579 8.05434 115.711 8.01849 115.846 8.01758H118.917C119.058 8.01878 119.195 8.05776 119.315 8.1304C119.434 8.20304 119.532 8.30667 119.598 8.43035C119.664 8.55404 119.696 8.6932 119.689 8.83318C119.682 8.97317 119.638 9.10879 119.561 9.22576L115.044 16.0571L119.618 22.8319C119.695 22.9489 119.739 23.0845 119.745 23.2245C119.752 23.3645 119.721 23.5036 119.655 23.6273C119.589 23.751 119.491 23.8546 119.371 23.9273C119.251 23.9999 119.114 24.0389 118.974 24.0401H115.857C115.724 24.0404 115.592 24.0062 115.476 23.941C115.359 23.8757 115.261 23.7815 115.191 23.6675L112.312 18.9025H112.256L109.376 23.6675C109.306 23.7815 109.209 23.8757 109.092 23.941C108.975 24.0062 108.844 24.0404 108.71 24.0401H105.65C105.505 24.0411 105.363 24.0019 105.24 23.9267C105.116 23.8515 105.016 23.7434 104.95 23.6145C104.884 23.4855 104.856 23.3408 104.868 23.1966C104.88 23.0524 104.932 22.9144 105.018 22.798L109.636 16.0232L105.018 9.24834C104.941 9.13137 104.896 8.99575 104.89 8.85577C104.883 8.71578 104.914 8.57662 104.98 8.45294C105.046 8.32925 105.144 8.22563 105.264 8.15298C105.384 8.08034 105.521 8.04136 105.661 8.04016L108.733 8.01758Z"/><path class="li" d="M3.55855 6.36644e-05H15.9791C18.087 -0.0058783 20.1754 0.404171 22.1245 1.20672C24.0737 2.00926 25.8453 3.18853 27.3379 4.67695C28.8306 6.16537 30.0148 7.93369 30.8228 9.88058C31.6309 11.8275 32.0468 13.9147 32.0468 16.0226V28.4431C32.0468 29.3865 31.6721 30.2911 31.005 30.9582C30.338 31.6252 29.4333 31.9999 28.49 31.9999H16.0694C13.9653 32.0059 11.8807 31.5973 9.93444 30.7976C7.98822 29.9979 6.21858 28.8226 4.72656 27.339C3.23453 25.8554 2.04934 24.0924 1.23866 22.1507C0.427977 20.209 0.00767453 18.1267 0.00175164 16.0226V3.60202C-0.00422817 3.13115 0.0833562 2.66378 0.259423 2.22702C0.435489 1.79027 0.696532 1.39282 1.02741 1.05774C1.35828 0.722664 1.75241 0.456627 2.18691 0.275063C2.62141 0.0934998 3.08764 2.56958e-05 3.55855 6.36644e-05ZM15.9791 27.585C18.2733 27.6074 20.5224 26.9474 22.4408 25.6888C24.3591 24.4303 25.8601 22.63 26.7531 20.5166C27.6461 18.4031 27.8908 16.072 27.4561 13.8192C27.0215 11.5664 25.9271 9.49368 24.3119 7.8642C22.6967 6.23472 20.6337 5.12206 18.3849 4.66753C16.136 4.213 13.8028 4.43713 11.6816 5.31143C9.56039 6.18574 7.74689 7.67077 6.47146 9.57792C5.19602 11.4851 4.51619 13.7283 4.51832 16.0226C4.52127 19.0804 5.7342 22.0128 7.89217 24.1792C10.0501 26.3457 12.9778 27.5701 16.0356 27.585H15.9791ZM15.9791 24.0395C14.3982 24.0306 12.8553 23.5538 11.545 22.6692C10.2347 21.7846 9.21558 20.5319 8.61624 19.0689C8.0169 17.606 7.86413 15.9983 8.1772 14.4487C8.49027 12.8991 9.25515 11.4768 10.3754 10.3613C11.4957 9.24571 12.9211 8.48684 14.4721 8.18031C16.023 7.87378 17.63 8.03332 19.0904 8.63882C20.5508 9.24432 21.7992 10.2687 22.6783 11.5827C23.5573 12.8967 24.0276 14.4416 24.0299 16.0226C24.0299 17.0739 23.8228 18.1149 23.4205 19.0862C23.0182 20.0575 22.4285 20.94 21.6851 21.6834C20.9417 22.4268 20.0592 23.0165 19.0879 23.4188C18.1166 23.8211 17.0756 24.0282 16.0243 24.0282L15.9791 24.0395ZM15.9791 19.5907C16.6821 19.5907 17.3693 19.3823 17.954 18.992C18.5386 18.6017 18.9945 18.0469 19.2641 17.3976C19.5336 16.7483 19.6047 16.0338 19.4684 15.3441C19.332 14.6545 18.9944 14.0207 18.4981 13.5228C18.0018 13.025 17.3691 12.6853 16.6799 12.5468C15.9907 12.4083 15.2759 12.4771 14.6258 12.7446C13.9757 13.0121 13.4194 13.4662 13.0272 14.0496C12.635 14.633 12.4245 15.3196 12.4223 16.0226C12.4223 16.4935 12.5157 16.9597 12.6973 17.3942C12.8789 17.8287 13.1449 18.2228 13.48 18.5537C13.8151 18.8846 14.2125 19.1456 14.6493 19.3217C15.086 19.4978 15.5534 19.5854 16.0243 19.5794L15.9791 19.5907Z"/></svg></a><div class="lang" role="group" aria-label="Sprache / Language"><button type="button" id="l-de">DE</button><button type="button" id="l-en">EN</button></div></div><nav class="crumb" id="crumb" aria-label="Navigation"></nav></header>
+<main>
+  <section id="map">
+    <div class="hero">
+      <p class="lead" id="lead"></p>
+      <span class="eyebrow" id="eyebrow"></span>
+      <h1 id="h1"></h1>
+      <p id="intro"></p>
+      <button class="primary" id="cta" type="button"></button>
+      <div class="ov"><div class="ovb"><i id="ovi"></i></div><span id="ovt"></span></div>
+      <div class="rank" id="rank"></div>
+      <div class="why" id="why"></div>
+      <div class="vs" id="vs"></div>
+      <p id="note" class="hide"></p>
+    </div>
+    <div id="levels"></div>
+        <div class="useful" id="useful"></div>
+    <button class="ghost" id="reset"></button>
+  </section>
+
+  <section id="lesson" class="card hide">
+    <div class="nav"><button type="button" class="navb" id="lhome"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="lhomeT"></span></button><span class="navl" id="lvl"></span></div>
+    <h2 id="ltitle"></h2>
+    <div class="gain" id="gain"><b></b><span></span><small></small></div>
+    <div class="lesson" id="ltext"></div>
+    <button class="primary" id="start">Fragen starten</button>
+    <button class="ghost" id="back1">Zur Übersicht</button>
+  </section>
+
+  <section id="quiz" class="card hide">
+    <div class="nav"><button type="button" class="navb" id="qhome"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="qhomeT"></span></button><span class="navl" id="qlesson"></span></div>
+    <div class="meta"><span id="count"></span><span id="pts"></span></div>
+    <div class="bar" id="bar"></div>
+    <h2 id="q"></h2>
+    <div id="opts"></div>
+    <div class="fb hide" id="fb" aria-live="polite"></div>
+    <button class="ex hide" id="exbtn" type="button">▸ Praxisbeispiel anschauen</button>
+    <div class="exbox hide" id="expl"><div class="exh" id="exh"></div><div class="exc" id="exc"></div><p class="exn" id="exn"></p><p class="exu hide" id="exu"></p></div>
+    <button class="primary hide" id="next">Weiter</button>
+    <button class="ghost hide" id="back" type="button">← Vorherige Frage</button>
+    <p class="hint" id="hint"></p>
+  </section>
+
+  <section id="end" class="card hide">
+    <div class="nav"><button type="button" class="navb" id="ehome"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="ehomeT"></span></button><span class="navl" id="elbl"></span></div>
+    <h2 id="etitle"></h2>
+    <div class="score" id="score"></div>
+    <p id="verdict"></p>
+    <div id="review"></div>
+    <button class="primary" id="main"></button>
+    <button class="ghost" id="back2">Zur Übersicht</button>
+  </section>
+
+  <section id="cert" class="card hide">
+    <div class="nav"><button type="button" class="navb" id="chome"><svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M10 3L5 8l5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span id="chomeT"></span></button></div>
+    <h2 id="ctitle"></h2>
+    <p id="cintro"></p>
+    <label class="certlab" for="cname" id="cnameL"></label>
+    <input type="text" id="cname" class="certin" maxlength="60" autocomplete="name">
+    <p class="certmsg hide" id="cmsg" role="alert"></p>
+    <div class="certprev" id="cprev"></div>
+    <button class="primary" id="cpdf" type="button"></button>
+    <button class="ex" id="cpng" type="button"></button>
+    <p class="hint" id="cnote"></p>
+    <button class="ghost" id="cback" type="button"></button>
+  </section>
+
+  <div class="toast hide" id="toast" role="status" aria-live="polite"></div>
+  <footer><div class="fl"><a class="logolink" href="https://ninox.com/de" target="ninox" aria-label="Ninox (ninox.com)"><svg class="logo" viewBox="0 0 120 32" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ninox"><path class="lw" d="M43.5368 8.55908L44.0449 10.1399C44.5396 9.35514 45.2346 8.7165 46.0583 8.28978C46.882 7.86306 47.8045 7.66369 48.7309 7.71222C51.6892 7.71222 54.7379 9.3156 54.7379 14.3967V23.2605C54.7379 23.4671 54.6558 23.6653 54.5097 23.8114C54.3636 23.9575 54.1654 24.0396 53.9588 24.0396H51.215C51.0084 24.0396 50.8102 23.9575 50.6641 23.8114C50.518 23.6653 50.4359 23.4671 50.4359 23.2605V14.6113C50.4678 14.2295 50.4167 13.8453 50.2861 13.4851C50.1555 13.1249 49.9484 12.7973 49.6791 12.5248C49.4098 12.2523 49.0846 12.0413 48.726 11.9064C48.3675 11.7715 47.9839 11.7158 47.6017 11.7433C47.158 11.7389 46.7182 11.8267 46.3102 12.0011C45.9021 12.1755 45.5347 12.4327 45.2312 12.7564C44.9276 13.0801 44.6946 13.4633 44.5468 13.8817C44.3989 14.3001 44.3396 14.7446 44.3724 15.1871V23.2492C44.3724 23.3515 44.3522 23.4528 44.3131 23.5474C44.2739 23.6419 44.2166 23.7278 44.1442 23.8001C44.0719 23.8725 43.986 23.9299 43.8914 23.969C43.7969 24.0082 43.6956 24.0283 43.5933 24.0283H40.8382C40.6316 24.0283 40.4334 23.9462 40.2873 23.8001C40.1412 23.654 40.0591 23.4558 40.0591 23.2492V8.7962C40.0591 8.58957 40.1412 8.3914 40.2873 8.24529C40.4334 8.09918 40.6316 8.01709 40.8382 8.01709H42.7916C42.9573 8.01644 43.1189 8.06864 43.2529 8.1661C43.387 8.26357 43.4864 8.40123 43.5368 8.55908Z"/><path class="lw" d="M64.1336 8.79669V23.261C64.1336 23.4676 64.0515 23.6658 63.9054 23.8119C63.7593 23.958 63.5611 24.0401 63.3545 24.0401H60.7575C60.5509 24.0401 60.3527 23.958 60.2066 23.8119C60.0605 23.6658 59.9784 23.4676 59.9784 23.261V12.2293C59.9768 12.0715 59.9274 11.918 59.8366 11.789C59.7459 11.6599 59.6182 11.5615 59.4703 11.5066L58.6121 11.2018C58.4642 11.1469 58.3365 11.0484 58.2457 10.9194C58.155 10.7904 58.1056 10.6368 58.104 10.4791V8.79669C58.104 8.69437 58.1242 8.59306 58.1633 8.49854C58.2025 8.40401 58.2599 8.31812 58.3322 8.24577C58.4045 8.17343 58.4904 8.11604 58.585 8.07688C58.6795 8.03773 58.7808 8.01758 58.8831 8.01758H63.3997C63.5984 8.02912 63.7851 8.11627 63.9216 8.26115C64.0581 8.40603 64.134 8.59765 64.1336 8.79669Z"/><path class="lw" d="M64.1098 3.60557C64.098 4.23662 63.8397 4.83801 63.3903 5.28113C62.9408 5.72426 62.3358 5.97393 61.7047 5.97677C61.0758 5.97677 60.4727 5.72695 60.028 5.28226C59.5833 4.83758 59.3335 4.23445 59.3335 3.60557C59.3335 2.97669 59.5833 2.37357 60.028 1.92888C60.4727 1.4842 61.0758 1.23438 61.7047 1.23438C62.3358 1.23721 62.9408 1.48689 63.3903 1.93001C63.8397 2.37313 64.098 2.97452 64.1098 3.60557Z"/><path class="lw" d="M72.6616 8.55908L73.1697 10.1399C73.6644 9.35514 74.3594 8.7165 75.183 8.28978C76.0067 7.86306 76.9293 7.66369 77.8556 7.71222C80.814 7.71222 83.8627 9.3156 83.8627 14.3967V23.2605C83.8627 23.4671 83.7806 23.6653 83.6345 23.8114C83.4884 23.9575 83.2902 24.0396 83.0836 24.0396H80.3511C80.1444 24.0396 79.9462 23.9575 79.8001 23.8114C79.654 23.6653 79.5719 23.4671 79.5719 23.2605V14.6113C79.6032 14.2335 79.5531 13.8534 79.425 13.4967C79.297 13.1399 79.0941 12.8147 78.8298 12.5429C78.5655 12.2712 78.2461 12.0592 77.893 11.9212C77.54 11.7833 77.1615 11.7226 76.783 11.7433C76.3392 11.7389 75.8994 11.8267 75.4914 12.0011C75.0833 12.1755 74.7159 12.4327 74.4124 12.7564C74.1088 13.0801 73.8758 13.4633 73.728 13.8817C73.5802 14.3001 73.5208 14.7446 73.5536 15.1871V23.2492C73.5536 23.3515 73.5335 23.4528 73.4943 23.5474C73.4552 23.6419 73.3978 23.7278 73.3254 23.8001C73.2531 23.8725 73.1672 23.9299 73.0727 23.969C72.9781 24.0082 72.8768 24.0283 72.7745 24.0283H70.0081C69.9058 24.0283 69.8045 24.0082 69.71 23.969C69.6154 23.9299 69.5295 23.8725 69.4572 23.8001C69.3849 23.7278 69.3275 23.6419 69.2883 23.5474C69.2492 23.4528 69.229 23.3515 69.229 23.2492V8.7962C69.229 8.69389 69.2492 8.59258 69.2883 8.49805C69.3275 8.40352 69.3849 8.31764 69.4572 8.24529C69.5295 8.17294 69.6154 8.11555 69.71 8.0764C69.8045 8.03724 69.9058 8.01709 70.0081 8.01709H71.9277C72.0914 8.01882 72.2505 8.07212 72.3823 8.16942C72.514 8.26671 72.6118 8.40306 72.6616 8.55908Z"/><path class="lw" d="M103.804 16.0351C103.804 17.6787 103.316 19.2855 102.403 20.6521C101.49 22.0188 100.192 23.084 98.6734 23.713C97.1548 24.342 95.4839 24.5065 93.8718 24.1859C92.2597 23.8652 90.7789 23.0737 89.6167 21.9115C88.4545 20.7492 87.663 19.2685 87.3423 17.6564C87.0216 16.0443 87.1862 14.3734 87.8152 12.8548C88.4442 11.3363 89.5094 10.0383 90.876 9.12518C92.2427 8.21201 93.8494 7.72461 95.4931 7.72461C97.6972 7.72461 99.811 8.60018 101.37 10.1587C102.928 11.7172 103.804 13.831 103.804 16.0351ZM95.4931 11.8799C94.6629 11.8506 93.843 12.0701 93.1385 12.5103C92.434 12.9505 91.8772 13.5912 91.5395 14.3502C91.2019 15.1091 91.0988 15.9517 91.2435 16.7697C91.3882 17.5877 91.7742 18.3437 92.3517 18.9407C92.9293 19.5378 93.6721 19.9486 94.4849 20.1203C95.2976 20.292 96.1431 20.2169 96.9129 19.9046C97.6826 19.5923 98.3414 19.057 98.8047 18.3675C99.268 17.678 99.5146 16.8658 99.5128 16.0351C99.5279 14.9499 99.1121 13.9031 98.3564 13.1241C97.6007 12.3451 96.5669 11.8977 95.4818 11.8799H95.4931Z"/><path class="lw" d="M108.733 8.01758C108.867 8.01849 109 8.05434 109.116 8.12163C109.233 8.18892 109.33 8.28534 109.399 8.40149L112.256 13.2229H112.312L115.18 8.40149C115.248 8.28534 115.346 8.18892 115.462 8.12163C115.579 8.05434 115.711 8.01849 115.846 8.01758H118.917C119.058 8.01878 119.195 8.05776 119.315 8.1304C119.434 8.20304 119.532 8.30667 119.598 8.43035C119.664 8.55404 119.696 8.6932 119.689 8.83318C119.682 8.97317 119.638 9.10879 119.561 9.22576L115.044 16.0571L119.618 22.8319C119.695 22.9489 119.739 23.0845 119.745 23.2245C119.752 23.3645 119.721 23.5036 119.655 23.6273C119.589 23.751 119.491 23.8546 119.371 23.9273C119.251 23.9999 119.114 24.0389 118.974 24.0401H115.857C115.724 24.0404 115.592 24.0062 115.476 23.941C115.359 23.8757 115.261 23.7815 115.191 23.6675L112.312 18.9025H112.256L109.376 23.6675C109.306 23.7815 109.209 23.8757 109.092 23.941C108.975 24.0062 108.844 24.0404 108.71 24.0401H105.65C105.505 24.0411 105.363 24.0019 105.24 23.9267C105.116 23.8515 105.016 23.7434 104.95 23.6145C104.884 23.4855 104.856 23.3408 104.868 23.1966C104.88 23.0524 104.932 22.9144 105.018 22.798L109.636 16.0232L105.018 9.24834C104.941 9.13137 104.896 8.99575 104.89 8.85577C104.883 8.71578 104.914 8.57662 104.98 8.45294C105.046 8.32925 105.144 8.22563 105.264 8.15298C105.384 8.08034 105.521 8.04136 105.661 8.04016L108.733 8.01758Z"/><path class="li" d="M3.55855 6.36644e-05H15.9791C18.087 -0.0058783 20.1754 0.404171 22.1245 1.20672C24.0737 2.00926 25.8453 3.18853 27.3379 4.67695C28.8306 6.16537 30.0148 7.93369 30.8228 9.88058C31.6309 11.8275 32.0468 13.9147 32.0468 16.0226V28.4431C32.0468 29.3865 31.6721 30.2911 31.005 30.9582C30.338 31.6252 29.4333 31.9999 28.49 31.9999H16.0694C13.9653 32.0059 11.8807 31.5973 9.93444 30.7976C7.98822 29.9979 6.21858 28.8226 4.72656 27.339C3.23453 25.8554 2.04934 24.0924 1.23866 22.1507C0.427977 20.209 0.00767453 18.1267 0.00175164 16.0226V3.60202C-0.00422817 3.13115 0.0833562 2.66378 0.259423 2.22702C0.435489 1.79027 0.696532 1.39282 1.02741 1.05774C1.35828 0.722664 1.75241 0.456627 2.18691 0.275063C2.62141 0.0934998 3.08764 2.56958e-05 3.55855 6.36644e-05ZM15.9791 27.585C18.2733 27.6074 20.5224 26.9474 22.4408 25.6888C24.3591 24.4303 25.8601 22.63 26.7531 20.5166C27.6461 18.4031 27.8908 16.072 27.4561 13.8192C27.0215 11.5664 25.9271 9.49368 24.3119 7.8642C22.6967 6.23472 20.6337 5.12206 18.3849 4.66753C16.136 4.213 13.8028 4.43713 11.6816 5.31143C9.56039 6.18574 7.74689 7.67077 6.47146 9.57792C5.19602 11.4851 4.51619 13.7283 4.51832 16.0226C4.52127 19.0804 5.7342 22.0128 7.89217 24.1792C10.0501 26.3457 12.9778 27.5701 16.0356 27.585H15.9791ZM15.9791 24.0395C14.3982 24.0306 12.8553 23.5538 11.545 22.6692C10.2347 21.7846 9.21558 20.5319 8.61624 19.0689C8.0169 17.606 7.86413 15.9983 8.1772 14.4487C8.49027 12.8991 9.25515 11.4768 10.3754 10.3613C11.4957 9.24571 12.9211 8.48684 14.4721 8.18031C16.023 7.87378 17.63 8.03332 19.0904 8.63882C20.5508 9.24432 21.7992 10.2687 22.6783 11.5827C23.5573 12.8967 24.0276 14.4416 24.0299 16.0226C24.0299 17.0739 23.8228 18.1149 23.4205 19.0862C23.0182 20.0575 22.4285 20.94 21.6851 21.6834C20.9417 22.4268 20.0592 23.0165 19.0879 23.4188C18.1166 23.8211 17.0756 24.0282 16.0243 24.0282L15.9791 24.0395ZM15.9791 19.5907C16.6821 19.5907 17.3693 19.3823 17.954 18.992C18.5386 18.6017 18.9945 18.0469 19.2641 17.3976C19.5336 16.7483 19.6047 16.0338 19.4684 15.3441C19.332 14.6545 18.9944 14.0207 18.4981 13.5228C18.0018 13.025 17.3691 12.6853 16.6799 12.5468C15.9907 12.4083 15.2759 12.4771 14.6258 12.7446C13.9757 13.0121 13.4194 13.4662 13.0272 14.0496C12.635 14.633 12.4245 15.3196 12.4223 16.0226C12.4223 16.4935 12.5157 16.9597 12.6973 17.3942C12.8789 17.8287 13.1449 18.2228 13.48 18.5537C13.8151 18.8846 14.2125 19.1456 14.6493 19.3217C15.086 19.4978 15.5534 19.5854 16.0243 19.5794L15.9791 19.5907Z"/></svg></a></div><span id="vlab"></span> <span id="ver"></span></footer>
+</main>
+
+<script>
+const APP_VERSION = "1.0.0";
+const PASS = 3;
+
+// Erste Antwort ist jeweils die richtige, gemischt wird automatisch.
+// Inhalte der Lern-App "Prompt, Skill, MCP, Loop und Agent". Ein Kapitel = ein Eintrag in CH, DE und EN nebeneinander.
+// Niveau: ansteigend (Lektion 1 bis 3 einfach mit Beispielen, 4 bis 6 mittel, 7 bis 9 Profi). Stand der Quellen: 13.10.2026.
+const CH = [
+ { t:["Der Prompt: deine Anweisung","The prompt: your instruction"],
+   ben:["Du schreibst Prompts, die klar sind und zum gewünschten Ergebnis führen.","You write prompts that are clear and lead to the result you want."],
+   l:[["Ein Prompt ist die Anweisung oder Eingabe, die du der KI gibst. Alles Weitere in dieser App baut darauf auf.",
+       "H:Beispiel: schlecht und gut",
+       "Schlecht: „Mach was mit der E-Mail.“ Gut: „Fasse diese E-Mail in drei Sätzen zusammen. Ton: freundlich.“ Der gute Prompt sagt, was getan werden soll, wie lang es sein soll und in welchem Ton.",
+       "H:Was einen Prompt besser macht",
+       "Laut Anthropic helfen vor allem: klar und direkt sein, Kontext geben, Beispiele zeigen (drei bis fünf sind ein guter Richtwert), den Prompt mit Tags wie XML strukturieren und der KI eine Rolle geben. Die einfache Probe: Zeige den Prompt einem Kollegen mit wenig Kontext. Wäre er verwirrt, wäre es die KI auch.",
+       "FOLD:Für Profis|Aufbau eines guten Prompts","Rolle (wer bist du), Aufgabe (was sollst du tun), Kontext (wozu und für wen), Format (wie soll das Ergebnis aussehen), Beispiele (so soll es aussehen). Eine Rolle setzt du am besten im System-Prompt.","ENDFOLD"],
+      ["A prompt is the instruction or input you give the AI. Everything else in this app builds on it.",
+       "H:Example: bad and good",
+       "Bad: “Do something with the email.” Good: “Summarise this email in three sentences. Tone: friendly.” The good prompt says what to do, how long it should be and in which tone.",
+       "H:What makes a prompt better",
+       "According to Anthropic the main helpers are: be clear and direct, give context, show examples (three to five are a good rule of thumb), structure the prompt with tags such as XML and give the AI a role. The simple test: show the prompt to a colleague with little context. If they would be confused, the AI would be too.",
+       "FOLD:For professionals|Structure of a good prompt","Role (who are you), task (what should you do), context (what for and for whom), format (what should the result look like), examples (it should look like this). You best set a role in the system prompt.","ENDFOLD"]],
+   q:[
+    {q:["Was ist ein Prompt?","What is a prompt?"],
+     a:[["Die Anweisung oder Eingabe an die KI","Ein Programm, das die KI trainiert","Ein Passwort für die KI","Eine Datei mit Zugangsdaten"],["The instruction or input to the AI","A program that trains the AI","A password for the AI","A file with credentials"]],
+     e:["Ein Prompt ist die Eingabe, mit der du der KI sagst, was sie tun soll.","A prompt is the input with which you tell the AI what to do."],
+     p:["Prompt = deine Aufgabe in Worten.","Prompt = your task in words."]},
+    {q:["Welcher Prompt ist besser?","Which prompt is better?"],
+     a:[["Fasse diese E-Mail in drei Sätzen zusammen. Ton: freundlich.","Mach bitte irgendetwas Sinnvolles mit dieser E-Mail.","Schreib etwas zu dieser E-Mail, du weißt schon, was ich meine.","Zusammenfassung, aber nicht zu lang und nicht zu kurz."],["Summarise this email in three sentences. Tone: friendly.","Please do something sensible with this email.","Write something about this email, you know what I mean.","Summary, but not too long and not too short."]],
+     e:["Der erste Prompt sagt klar, was, wie lang und in welchem Ton.","The first prompt says clearly what, how long and in which tone."],
+     p:["Klar und direkt schlägt vage und kurz.","Clear and direct beats vague and short."]},
+    {q:["Was verbessert einen Prompt?","What improves a prompt?"],
+     a:[["Das gewünschte Format nennen","Alles in Großbuchstaben schreiben","Möglichst wenig Kontext geben","Die Frage mehrmals wiederholen"],["Naming the desired format","Writing everything in capital letters","Giving as little context as possible","Repeating the question several times"]],
+     e:["Format, Kontext, Beispiele und Klarheit helfen, Großbuchstaben oder Wiederholung nicht.","Format, context, examples and clarity help, capital letters or repetition do not."],
+     p:["Sage, wie das Ergebnis aussehen soll: Liste, Tabelle, drei Sätze.","Say what the result should look like: list, table, three sentences."]},
+    {q:["Wozu dienen Beispiele im Prompt?","What are examples in a prompt for?"],
+     a:[["Sie zeigen der KI, wie das gewünschte Ergebnis aussieht","Sie machen die Antwort automatisch kürzer","Sie schalten Werkzeuge der KI frei","Sie speichern den Prompt dauerhaft"],["They show the AI what the desired result looks like","They automatically make the answer shorter","They unlock tools of the AI","They store the prompt permanently"]],
+     e:["Beispiele (Few-Shot) zeigen Stil und Format. Drei bis fünf sind ein guter Richtwert.","Examples (few-shot) show style and format. Three to five are a good rule of thumb."],
+     p:["Zeige, was du willst, statt nur zu beschreiben.","Show what you want instead of only describing it."]}]},
+
+ { t:["Kontext: das Arbeitsgedächtnis","Context: the working memory"],
+   ben:["Du erklärst, was die KI „sehen“ kann und warum mehr Text nicht immer besser ist.","You explain what the AI can see and why more text is not always better."],
+   l:[["Die KI kennt nur das, was in ihrem Kontextfenster steht. Das Kontextfenster ist alles, worauf sie beim Antworten zugreifen kann: dein Prompt, das bisherige Gespräch, Dokumente, Ergebnisse von Werkzeugen und ihre eigene Antwort.",
+       "H:Beispiel",
+       "Du fragst: „Wie hoch ist unser Rabatt?“ Ohne die Preisliste im Kontext kann die KI nur raten. Mit der Preisliste im Prompt antwortet sie genau.",
+       "H:Mehr ist nicht immer besser",
+       "Wird der Kontext sehr lang, können Genauigkeit und Erinnerung nachlassen. Wichtiges gehört deshalb klar in den Prompt. Bei langen Gesprächen kann der Verlauf zusammengefasst werden (Kompression)."],
+      ["The AI only knows what is in its context window. The context window is everything it can refer to when answering: your prompt, the conversation so far, documents, results of tools and its own answer.",
+       "H:Example",
+       "You ask: “What is our discount?” Without the price list in the context the AI can only guess. With the price list in the prompt it answers exactly.",
+       "H:More is not always better",
+       "When the context gets very long, accuracy and recall can degrade. Important things therefore belong clearly in the prompt. In long conversations the history can be summarised (compaction)."]],
+   q:[
+    {q:["Was ist das Kontextfenster?","What is the context window?"],
+     a:[["Alles, worauf die KI beim Antworten zugreifen kann","Das Fenster der App auf dem Bildschirm","Die Zeit, die eine Antwort dauert","Die Liste aller trainierten Daten"],["Everything the AI can refer to when answering","The window of the app on the screen","The time an answer takes","The list of all training data"]],
+     e:["Das Kontextfenster ist das Arbeitsgedächtnis: alles, worauf die KI beim Antworten zugreifen kann.","The context window is the working memory: everything the AI can refer to when answering."],
+     p:["Kontext = Arbeitsgedächtnis der KI.","Context = the AI's working memory."]},
+    {q:["Was zählt zum Kontext?","What counts as context?"],
+     a:[["Prompt, Gespräch, Dokumente und Tool-Ergebnisse","Nur der letzte Satz, den du geschrieben hast","Nur Bilder und Fotos aus dem Gespräch","Nur Dateien, die auf deinem Rechner liegen"],["Prompt, conversation, documents and tool results","Only the last sentence you wrote","Only images and photos from the conversation","Only files that are on your computer"]],
+     e:["Zum Kontext zählt alles, was die KI bei der Anfrage verwenden kann, auch Tool-Ergebnisse und ihre Antwort.","Context includes everything the AI can use for the request, also tool results and its answer."],
+     p:["Was nicht im Kontext steht, kann die KI nicht verwenden.","What is not in the context the AI cannot use."]},
+    {q:["Was gilt für sehr viel Text im Kontext?","What applies to a lot of text in the context?"],
+     a:[["Genauigkeit und Erinnerung können nachlassen","Die KI wird mit jedem Wort immer besser","Die KI liest nur den ersten Satz davon","Die KI löscht den Kontext sofort"],["Accuracy and recall can degrade","The AI gets better with every word","The AI only reads the first sentence of it","The AI deletes the context immediately"]],
+     e:["Mit wachsender Tokenzahl können Genauigkeit und Erinnerung nachlassen.","As the token count grows, accuracy and recall can degrade."],
+     p:["Kurz und gezielt schlägt alles hineinwerfen.","Short and targeted beats throwing everything in."]},
+    {q:["Welche Probe empfiehlt Anthropic für einen Prompt?","Which test does Anthropic recommend for a prompt?"],
+     a:[["Ihn einem Kollegen mit wenig Kontext zeigen","Ihn zur Probe einmal rückwärts lesen","Ihn zur Probe ins Englische übersetzen","Ihn zur Probe auf ein Wort kürzen"],["Show it to a colleague with little context","Read it backwards once as a test","Translate it into English as a test","Shorten it to one word as a test"]],
+     e:["Wäre der Kollege verwirrt, wäre es die KI auch.","If the colleague would be confused, the AI would be too."],
+     p:["Die goldene Regel für Prompts.","The golden rule for prompts."]}]},
+
+ { t:["Skill: dein Wissen als Anleitung","Skill: your know-how as instructions"],
+   ben:["Du erklärst, was ein Skill ist und wann er sich lohnt.","You explain what a skill is and when it is worth it."],
+   l:[["Ein Skill ist ein Ordner mit einer Datei SKILL.md. Oben stehen name und description, darunter die Anleitung in Markdown. Dazu können Skripte und Referenzdateien kommen.",
+       "H:Beispiel",
+       "Du prüfst jede Woche Rechnungen nach denselben acht Punkten. Statt die Punkte jedes Mal in den Prompt zu schreiben, legst du einen Skill „rechnung-pruefen“ an. Die KI lädt ihn, wenn die Aufgabe passt.",
+       "H:Skill oder Prompt?",
+       "Ein Prompt gilt für eine einzelne Anfrage. Ein Skill lädt bei Bedarf und lohnt sich, wenn du dieselben Anweisungen immer wieder einfügst.",
+       "FOLD:Für Profis|Wo Skills laufen","Skills sind ein offener Standard (agentskills.io) und funktionieren in Claude, Claude Code und über die API sowie in weiteren KI-Werkzeugen. Eigene Skills werden zwischen den Oberflächen nicht automatisch synchronisiert.","ENDFOLD"],
+      ["A skill is a folder with a file SKILL.md. At the top are name and description, below that the instructions in Markdown. Scripts and reference files can be added.",
+       "H:Example",
+       "Every week you check invoices against the same eight points. Instead of typing the points into the prompt every time, you create a skill “check-invoice”. The AI loads it when the task fits.",
+       "H:Skill or prompt?",
+       "A prompt applies to a single request. A skill loads on demand and is worth it when you keep pasting the same instructions.",
+       "FOLD:For professionals|Where skills run","Skills are an open standard (agentskills.io) and work in Claude, Claude Code and via the API as well as in other AI tools. Custom skills are not synchronised automatically between the surfaces.","ENDFOLD"]],
+   q:[
+    {q:["Was ist ein Skill?","What is a skill?"],
+     a:[["Ein Ordner mit einer SKILL.md und optionalen Dateien","Eine Browser-Erweiterung zum Übersetzen","Ein Passwortmanager für Teams","Ein Sprachmodell von Anthropic"],["A folder with a SKILL.md and optional files","A browser extension for translating","A password manager for teams","A language model from Anthropic"]],
+     e:["Ein Skill ist ein Ordner mit SKILL.md (name, description, Anleitung), optional mit Skripten und Referenzen.","A skill is a folder with SKILL.md (name, description, instructions), optionally with scripts and references."],
+     p:["Skill = Anleitung zum Wiederverwenden.","Skill = instructions to reuse."]},
+    {q:["Was steht oben in jeder SKILL.md?","What is at the top of every SKILL.md?"],
+     a:[["name und description","Ein Passwort und ein Datum","Nur der Programmcode","Nur eine Bilddatei"],["name and description","A password and a date","Only the program code","Only an image file"]],
+     e:["Am Anfang stehen mindestens name und description, darunter die Anleitung.","At the top are at least name and description, below that the instructions."],
+     p:["Die description sagt der KI, wann der Skill passt.","The description tells the AI when the skill fits."]},
+    {q:["Wann lohnt sich ein Skill statt eines Prompts?","When is a skill worth it instead of a prompt?"],
+     a:[["Wenn du dieselben Anweisungen immer wieder einfügst","Wenn du eine Frage nur ein einziges Mal stellst","Wenn die KI keine Dateien lesen soll","Wenn du das Gespräch beenden willst"],["When you keep pasting the same instructions","When you ask a question only once","When the AI should not read files","When you want to end the conversation"]],
+     e:["Skills laden bei Bedarf, du musst die Anleitung nicht in jedes Gespräch kopieren.","Skills load on demand, you do not have to copy the instructions into every conversation."],
+     p:["Dreimal dasselbe getippt? Zeit für einen Skill.","Typed the same thing three times? Time for a skill."]},
+    {q:["Welches Beispiel passt zu einem Skill?","Which example fits a skill?"],
+     a:[["Eine feste Checkliste zum Prüfen von Rechnungen","Ein einmaliger Gruß zum Start","Ein Passwort für ein fremdes System","Das Abschalten aller Berechtigungen"],["A fixed checklist for checking invoices","A one-time greeting at the start","A password for a foreign system","Turning off all permissions"]],
+     e:["Wiederkehrende Abläufe mit festen Schritten sind ideal für Skills.","Recurring processes with fixed steps are ideal for skills."],
+     p:["Skill = Prozesswissen, nie Zugangsdaten.","Skill = process knowledge, never credentials."]}]},
+
+ { t:["Tools: die Hände der KI","Tools: the hands of the AI"],
+   ben:["Du erklärst den Ablauf, wie eine KI ein Werkzeug nutzt.","You explain how an AI uses a tool."],
+   l:[["Eine KI kann von sich aus nur Text erzeugen. Mit Tools kann sie mehr: Dateien lesen, im Web suchen, Daten abfragen. Das nennt man Tool Use oder Function Calling.",
+       "H:So läuft es ab",
+       "Die KI entscheidet anhand deiner Anfrage und der Tool-Beschreibung, ob sie ein Tool braucht. Sie fordert dann einen Tool-Aufruf mit Name und Eingaben an. Bei Client-Tools führt deine Anwendung den Aufruf aus und schickt das Ergebnis zurück. Danach macht die KI damit weiter.",
+       "H:Beispiel",
+       "„Wie ist das Wetter in Heilbronn?“ Die KI fordert das Tool „wetter“ mit dem Ort an. Die Anwendung ruft den Dienst ab und gibt die Daten zurück. Die KI formuliert die Antwort.",
+       "FOLD:Für Profis|Client- und Server-Tools","Client-Tools laufen in deiner Anwendung. Server-Tools (zum Beispiel Websuche) laufen auf der Infrastruktur des Anbieters. Der Ablauf mit tool_use und tool_result gilt für Client-Tools.","ENDFOLD"],
+      ["On its own an AI can only produce text. With tools it can do more: read files, search the web, query data. This is called tool use or function calling.",
+       "H:How it works",
+       "The AI decides from your request and the tool description whether it needs a tool. It then requests a tool call with a name and inputs. With client tools your application runs the call and sends the result back. The AI then continues with it.",
+       "H:Example",
+       "“What is the weather in Heilbronn?” The AI requests the tool “weather” with the place. The application queries the service and returns the data. The AI words the answer.",
+       "FOLD:For professionals|Client and server tools","Client tools run in your application. Server tools (for example web search) run on the provider's infrastructure. The flow with tool_use and tool_result applies to client tools.","ENDFOLD"]],
+   q:[
+    {q:["Wer führt einen Client-Tool-Aufruf aus?","Who runs a client tool call?"],
+     a:[["Die Anwendung, die mit der KI arbeitet","Die KI selbst im Modell","Du von Hand in jedem Fall","Der Browser des Nutzers immer"],["The application working with the AI","The AI itself inside the model","You by hand in every case","Always the user's browser"]],
+     e:["Bei Client-Tools führt deine Anwendung den Aufruf aus und sendet ein tool_result zurück.","With client tools your application runs the call and sends back a tool_result."],
+     p:["Die KI bittet, die Anwendung handelt.","The AI asks, the application acts."]},
+    {q:["Was fordert die KI bei Tool Use an?","What does the AI request in tool use?"],
+     a:[["Einen Tool-Aufruf mit Name und Eingaben","Ein neues Passwort für dein Konto","Ein größeres Modell für die Aufgabe","Ein Update für die ganze App"],["A tool call with a name and inputs","A new password for your account","A larger model for the task","An update for the whole app"]],
+     e:["Die KI liefert einen strukturierten Aufruf: Name des Tools und Eingaben.","The AI returns a structured call: name of the tool and inputs."],
+     p:["tool_use = die Bestellung der KI.","tool_use = the AI's order."]},
+    {q:["Was geht nach der Ausführung zurück an die KI?","What goes back to the AI after execution?"],
+     a:[["Das Ergebnis des Tools","Dein Passwort für das System","Das gesamte Internet","Nichts, die KI rät weiter"],["The result of the tool","Your password for the system","The whole internet","Nothing, the AI keeps guessing"]],
+     e:["Das Ergebnis kommt als tool_result zurück, und die KI macht damit weiter.","The result comes back as tool_result and the AI continues with it."],
+     p:["tool_result = die Lieferung an die KI.","tool_result = the delivery to the AI."]},
+    {q:["Wer entscheidet, ob ein Tool genutzt wird?","Who decides whether a tool is used?"],
+     a:[["Die KI, anhand der Anfrage und der Tool-Beschreibung","Der Zufall entscheidet bei jeder neuen Anfrage","Nur ein Administrator entscheidet vorab für alle","Die Tastatur des Nutzers entscheidet über Tools"],["The AI, based on the request and the tool description","Chance decides with every new request","Only an administrator decides in advance for all","The user's keyboard decides about tools"]],
+     e:["Die KI entscheidet anhand deiner Anfrage und der Beschreibung des Tools.","The AI decides based on your request and the description of the tool."],
+     p:["Gute Tool-Beschreibungen helfen der KI bei der Wahl.","Good tool descriptions help the AI choose."]}],
+   dd:{de:{dd:1,q:"Bringe den Ablauf von Tool Use in die richtige Reihenfolge.",slots:["Schritt 1","Schritt 2","Schritt 3","Schritt 4"],items:["Die KI fordert einen Tool-Aufruf an","Die Anwendung führt das Tool aus","Das Ergebnis geht als tool_result zurück","Die KI macht mit dem Ergebnis weiter"],e:"Erst fordert die KI den Aufruf an, dann führt die Anwendung ihn aus, das Ergebnis geht zurück, und die KI macht damit weiter."},
+       en:{dd:1,q:"Put the tool use flow into the right order.",slots:["Step 1","Step 2","Step 3","Step 4"],items:["The AI requests a tool call","The application runs the tool","The result goes back as tool_result","The AI continues with the result"],e:"First the AI requests the call, then the application runs it, the result goes back and the AI continues with it."}}},
+
+ { t:["MCP: der Anschluss für Werkzeuge und Daten","MCP: the connector for tools and data"],
+   ben:["Du erklärst, was MCP ist und wie Host, Client und Server zusammenspielen.","You explain what MCP is and how host, client and server work together."],
+   l:[["MCP steht für Model Context Protocol. Es ist ein offener Standard, der KI-Anwendungen mit externen Systemen verbindet, zum Beispiel mit Dateien, Datenbanken oder Diensten wie einem Ticketsystem.",
+       "H:Das Bild dazu",
+       "Die MCP-Doku vergleicht MCP mit einem USB-C-Anschluss für KI-Anwendungen: ein einheitlicher Stecker, an den sich viele Dinge anschließen lassen. Das Prinzip: einmal bauen, überall anbinden.",
+       "H:Die Rollen",
+       "Der Host ist die KI-Anwendung. Sie erzeugt für jeden Server einen Client. Der Server ist das Programm, das Kontext liefert. Ein Server kann Tools (Funktionen), Resources (Daten) und Prompts (Vorlagen) anbieten.",
+       "FOLD:Für Profis|Transporte und Stand","Lokale Server nutzen meist Stdio, entfernte Server Streamable HTTP (dafür wird OAuth empfohlen). Anthropic stellte MCP im November 2024 vor und übergab es Ende 2025 an die Agentic AI Foundation der Linux Foundation. Die Spezifikation entwickelt sich weiter; prüfe die aktuelle Version auf modelcontextprotocol.io.","ENDFOLD"],
+      ["MCP stands for Model Context Protocol. It is an open standard that connects AI applications with external systems, for example files, databases or services such as a ticket system.",
+       "H:The picture",
+       "The MCP docs compare MCP to a USB-C port for AI applications: one standard plug that many things can connect to. The principle: build once, integrate everywhere.",
+       "H:The roles",
+       "The host is the AI application. It creates a client for every server. The server is the program that provides context. A server can offer tools (functions), resources (data) and prompts (templates).",
+       "FOLD:For professionals|Transports and status","Local servers mostly use stdio, remote servers use streamable HTTP (OAuth is recommended for it). Anthropic introduced MCP in November 2024 and handed it over to the Agentic AI Foundation of the Linux Foundation at the end of 2025. The specification keeps evolving; check the current version on modelcontextprotocol.io.","ENDFOLD"]],
+   q:[
+    {q:["Wofür steht MCP?","What does MCP stand for?"],
+     a:[["Model Context Protocol","Multi Computer Process","Main Control Panel","Mobile Cloud Platform"],["Model Context Protocol","Multi Computer Process","Main Control Panel","Mobile Cloud Platform"]],
+     e:["MCP heißt Model Context Protocol.","MCP means Model Context Protocol."],
+     p:["Protokoll = vereinbarte Sprache zwischen zwei Seiten.","Protocol = agreed language between two sides."]},
+    {q:["Was ist MCP?","What is MCP?"],
+     a:[["Ein offener Standard für die Verbindung von KI mit Systemen","Ein Chat-Modell, das Anthropic entwickelt hat","Ein Verfahren zur Verschlüsselung von Dateien","Eine Programmiersprache für große Datenbanken"],["An open standard for connecting AI with systems","A chat model that Anthropic developed","A method for encrypting files","A programming language for large databases"]],
+     e:["MCP ist ein offener Standard, der KI-Anwendungen mit externen Systemen verbindet.","MCP is an open standard that connects AI applications with external systems."],
+     p:["MCP = Anschluss, nicht Gehirn.","MCP = connector, not brain."]},
+    {q:["Welches Bild nutzt die MCP-Doku?","Which picture do the MCP docs use?"],
+     a:[["Ein USB-C-Anschluss für KI-Anwendungen","Eine Brücke über einen Fluss","Ein Wasserkreislauf im Haus","Ein Zahnrad in einer Uhr"],["A USB-C port for AI applications","A bridge over a river","A water cycle in a house","A cog in a watch"]],
+     e:["Die Doku vergleicht MCP mit einem USB-C-Anschluss für KI-Anwendungen.","The docs compare MCP to a USB-C port for AI applications."],
+     p:["Ein Stecker für viele Geräte.","One plug for many devices."]},
+    {q:["Was kann ein MCP-Server bereitstellen?","What can an MCP server provide?"],
+     a:[["Tools, Resources und Prompts","Nur Bilder und Fotos","Nur Passwörter und Schlüssel","Nur Updates für die App"],["Tools, resources and prompts","Only images and photos","Only passwords and keys","Only updates for the app"]],
+     e:["Server bieten Tools (Funktionen), Resources (Daten) und Prompts (Vorlagen) an.","Servers offer tools (functions), resources (data) and prompts (templates)."],
+     p:["Tools = tun, Resources = wissen, Prompts = Vorlagen.","Tools = do, resources = know, prompts = templates."]}]},
+
+ { t:["Der Loop: wiederholen bis fertig","The loop: repeat until done"],
+   ben:["Du erklärst die Agentenschleife und wie man sie begrenzt.","You explain the agent loop and how to limit it."],
+   l:[["Der Loop (die Agentenschleife) ist das Herzstück: Die KI sammelt Kontext, handelt und prüft das Ergebnis. Dann geht es mit dem nächsten Schritt weiter, bis die Aufgabe erledigt ist.",
+       "H:Beispiel",
+       "Aufgabe: „Behebe den Fehler in der Datei.“ Runde 1: Datei lesen. Runde 2: Fehler korrigieren. Runde 3: Test ausführen. Test grün: fertig. Test rot: nächste Runde.",
+       "H:Wann hört er auf?",
+       "Im Agent SDK endet die Schleife, wenn die KI ohne Tool-Aufruf antwortet. Du kannst sie begrenzen (maximale Runden, maximales Budget), mit Berechtigungsabfragen steuern oder in Claude Code jederzeit mit Esc stoppen. Ohne Limits läuft sie, bis die KI fertig ist.",
+       "FOLD:Für Profis|Hooks und Kontext","Hooks können Aufrufe vor der Ausführung prüfen oder blockieren. Der Kontext wächst mit jeder Runde, deshalb wird er bei Bedarf automatisch zusammengefasst.","ENDFOLD"],
+      ["The loop (the agent loop) is the heart: the AI gathers context, takes action and checks the result. Then it continues with the next step until the task is done.",
+       "H:Example",
+       "Task: “Fix the error in the file.” Round 1: read the file. Round 2: correct the error. Round 3: run the test. Test green: done. Test red: next round.",
+       "H:When does it stop?",
+       "In the Agent SDK the loop ends when the AI answers without a tool call. You can limit it (maximum turns, maximum budget), steer it with permission prompts or stop it any time with Esc in Claude Code. Without limits it runs until the AI is done.",
+       "FOLD:For professionals|Hooks and context","Hooks can check or block calls before they run. The context grows with every round, so it is summarised automatically when needed.","ENDFOLD"]],
+   q:[
+    {q:["Welche drei Phasen nennt die Doku für die Schleife?","Which three phases do the docs name for the loop?"],
+     a:[["Kontext sammeln, handeln, Ergebnis prüfen","Planen, bezahlen, danach alles löschen","Starten, lange warten und beenden","Lesen, wieder vergessen und raten"],["Gather context, take action, verify results","Plan, pay, then delete everything","Start, wait a long time and finish","Read, forget again and guess"]],
+     e:["Claude Code arbeitet in den Phasen: Kontext sammeln, handeln und Ergebnis prüfen.","Claude Code works in the phases: gather context, take action and verify results."],
+     p:["Sammeln, handeln, prüfen, wieder von vorn.","Gather, act, check, start again."]},
+    {q:["Wann endet die Schleife im Agent SDK?","When does the loop end in the Agent SDK?"],
+     a:[["Wenn die KI ohne Tool-Aufruf antwortet","Nach genau drei Runden Arbeit","Wenn der Bildschirm gesperrt wird","Sie endet nie von selbst"],["When the AI answers without a tool call","After exactly three rounds of work","When the screen gets locked","It never ends on its own"]],
+     e:["Die Schleife endet, wenn die KI eine Antwort ohne Tool-Aufruf liefert.","The loop ends when the AI returns an answer without a tool call."],
+     p:["Keine weitere Aktion nötig = fertig.","No further action needed = done."]},
+    {q:["Wie stoppst du Claude Code sofort?","How do you stop Claude Code immediately?"],
+     a:[["Mit der Taste Esc","Mit der Taste Entf","Mit der Taste Tab","Mit der Taste Enter"],["With the Esc key","With the Delete key","With the Tab key","With the Enter key"]],
+     e:["Mit Esc stoppst du Claude sofort; der laufende Tool-Aufruf wird abgebrochen.","With Esc you stop Claude immediately; the running tool call is cancelled."],
+     p:["Esc ist deine Notbremse.","Esc is your emergency brake."]},
+    {q:["Gibt es im Agent SDK standardmäßig ein Rundenlimit?","Is there a default turn limit in the Agent SDK?"],
+     a:[["Nein, Limits wie maxTurns stellt man selbst ein","Ja, es sind immer genau zehn Runden","Ja, es ist immer genau eine Runde","Ja, es gibt ein festes Limit pro Minute"],["No, limits such as maxTurns are set by you","Yes, it is always exactly ten rounds","Yes, it is always exactly one round","Yes, there is a fixed limit per minute"]],
+     e:["Standardmäßig gibt es kein Limit. maxTurns und ein Budget lassen sich festlegen.","By default there is no limit. maxTurns and a budget can be set."],
+     p:["Grenzen setzt du selbst: Runden, Budget, Berechtigungen.","You set the limits yourself: turns, budget, permissions."]}],
+   dd:{de:{dd:1,q:"Ordne zu: Welche Phase der Schleife ist das?",slots:["Die KI liest Dateien und Daten","Die KI ruft ein Tool auf und ändert etwas","Die KI kontrolliert, ob es geklappt hat"],items:["Kontext sammeln","Handeln","Ergebnis prüfen"],e:"Lesen ist Kontext sammeln, Ändern ist Handeln, Kontrollieren ist Ergebnis prüfen."},
+       en:{dd:1,q:"Match them: which phase of the loop is it?",slots:["The AI reads files and data","The AI calls a tool and changes something","The AI checks whether it worked"],items:["Gather context","Take action","Verify results"],e:"Reading is gathering context, changing is taking action, checking is verifying results."}}},
+
+ { t:["Der Agent: KI, Werkzeuge und Schleife","The agent: AI, tools and loop"],
+   ben:["Du unterscheidest Workflow und Agent und erklärst Subagenten.","You distinguish workflow and agent and explain subagents."],
+   l:[["Ein Agent ist eine KI, die Werkzeuge in einer Schleife nutzt und anhand der Rückmeldungen der Umgebung selbst entscheidet, was als Nächstes kommt.",
+       "H:Workflow oder Agent?",
+       "Im Workflow ist der Ablauf in festem Code vorgegeben: erst A, dann B, dann C. Beim Agent steuert die KI ihren Prozess und den Werkzeugeinsatz dynamisch selbst. Anthropic rät: Fang mit der einfachsten Lösung an, erst bei Bedarf komplexer.",
+       "H:Beispiel",
+       "Workflow: Jede Rechnung durchläuft immer dieselben drei Prüfungen. Agent: Eine Support-Anfrage kann Recherche, Rückfrage und mehrere Tools brauchen, die Reihenfolge ergibt sich unterwegs.",
+       "FOLD:Für Profis|Subagenten","Ein Subagent ist ein Hilfs-Agent mit eigenem Kontextfenster, eigenem System-Prompt und begrenzten Tools. Der Hauptagent delegiert Teilaufgaben und bekommt nur die Zusammenfassung zurück. Das schont seinen Kontext und lässt Rechte einschränken.","ENDFOLD"],
+      ["An agent is an AI that uses tools in a loop and decides itself what comes next based on feedback from the environment.",
+       "H:Workflow or agent?",
+       "In a workflow the process is set in fixed code: first A, then B, then C. With an agent the AI steers its process and tool use dynamically itself. Anthropic advises: start with the simplest solution, add complexity only when needed.",
+       "H:Example",
+       "Workflow: every invoice always goes through the same three checks. Agent: a support request may need research, a follow-up question and several tools, the order emerges along the way.",
+       "FOLD:For professionals|Subagents","A subagent is a helper agent with its own context window, its own system prompt and limited tools. The main agent delegates sub-tasks and only gets the summary back. This protects its context and lets you restrict permissions.","ENDFOLD"]],
+   q:[
+    {q:["Was unterscheidet einen Workflow von einem Agenten?","What distinguishes a workflow from an agent?"],
+     a:[["Workflow: fester Ablauf. Agent: die KI steuert selbst","Ein Workflow nutzt keine KI, ein Agent schon","Ein Agent ist immer langsamer als ein Workflow","Beide sind das Gleiche mit anderem Namen"],["Workflow: fixed process. Agent: the AI steers itself","A workflow uses no AI, an agent does","An agent is always slower than a workflow","Both are the same with a different name"]],
+     e:["Im Workflow geben Code-Pfade den Ablauf vor, beim Agenten steuert die KI Prozess und Werkzeuge dynamisch.","In a workflow code paths set the process, with an agent the AI steers process and tools dynamically."],
+     p:["Workflow = Fahrplan, Agent = Fahrer mit Ziel.","Workflow = timetable, agent = driver with a destination."]},
+    {q:["Woraus besteht ein Agent im Kern?","What does an agent consist of at its core?"],
+     a:[["Aus einer KI, die Werkzeuge in einer Schleife nutzt","Aus einem Chatfenster und einer Tastatur","Aus einer Tabelle mit festen Regeln","Aus einem Passwort und einer Datei"],["An AI that uses tools in a loop","A chat window and a keyboard","A table with fixed rules","A password and a file"]],
+     e:["Anthropic beschreibt Agenten als LLMs, die Tools auf Basis von Rückmeldungen der Umgebung in einer Schleife nutzen.","Anthropic describes agents as LLMs using tools in a loop based on environmental feedback."],
+     p:["Agent = KI + Tools + Loop.","Agent = AI + tools + loop."]},
+    {q:["Was empfiehlt Anthropic beim Start?","What does Anthropic recommend at the start?"],
+     a:[["Mit der einfachsten Lösung anfangen","Gleich einen komplexen Agenten bauen","Nie Beispiele verwenden","Alles in einen einzigen Prompt packen"],["Start with the simplest solution","Build a complex agent right away","Never use examples","Put everything into a single prompt"]],
+     e:["Beginne mit einfachen Prompts und füge mehrstufige Systeme nur hinzu, wenn einfachere Lösungen nicht reichen.","Start with simple prompts and add multi-step systems only when simpler solutions fall short."],
+     p:["Erst Prompt, dann Skill, dann Agent, wenn nötig.","First prompt, then skill, then agent if needed."]},
+    {q:["Was ist ein Subagent?","What is a subagent?"],
+     a:[["Ein Hilfs-Agent mit eigenem Kontextfenster","Ein Agent, der keine Werkzeuge nutzen darf","Eine zweite Anmeldung am selben Konto","Ein Skill, der nur Bilder erzeugt"],["A helper agent with its own context window","An agent that may not use any tools","A second login to the same account","A skill that only creates images"]],
+     e:["Ein Subagent läuft mit eigenem Kontextfenster, eigenem System-Prompt und begrenzten Tools.","A subagent runs with its own context window, its own system prompt and limited tools."],
+     p:["Hauptagent delegiert, Subagent liefert eine Zusammenfassung.","Main agent delegates, subagent returns a summary."]}]},
+
+ { t:["Das Zusammenspiel: wer macht was?","The interplay: who does what?"],
+   ben:["Du erklärst an einem Beispiel, wie Prompt, Skill, MCP, Loop und Agent zusammenarbeiten.","You explain with an example how prompt, skill, MCP, loop and agent work together."],
+   l:[["Alle Bausteine haben eine eigene Aufgabe. Der Prompt nennt das Ziel. Der Skill liefert die Anleitung. MCP liefert den Zugang zu Systemen. Der Loop treibt die Arbeit in Runden voran. Der Agent ist das Ganze zusammen.",
+       "H:Ein Beispiel von vorn bis hinten",
+       "Prompt: „Lege zu dieser E-Mail ein Ticket an.“ Der Agent liest die E-Mail (Tool). Er lädt den Skill „ticket-regeln“ mit den Pflichtfeldern (Skill). Er legt das Ticket im Ticketsystem an (MCP-Server). Er prüft, ob das Ticket existiert (Loop). Dann meldet er das Ergebnis.",
+       "H:Merksatz",
+       "Prompt = Was. Skill = Wie. MCP = Womit. Loop = Wie lange. Agent = Wer macht es."],
+      ["All building blocks have their own job. The prompt names the goal. The skill provides the instructions. MCP provides access to systems. The loop drives the work forward in rounds. The agent is all of it together.",
+       "H:An example from start to finish",
+       "Prompt: “Create a ticket for this email.” The agent reads the email (tool). It loads the skill “ticket-rules” with the required fields (skill). It creates the ticket in the ticket system (MCP server). It checks that the ticket exists (loop). Then it reports the result.",
+       "H:Rule of thumb",
+       "Prompt = what. Skill = how. MCP = with what. Loop = how long. Agent = who does it."]],
+   q:[
+    {q:["Welcher Baustein gibt Zugang zu externen Systemen?","Which building block gives access to external systems?"],
+     a:[["MCP","Der Prompt","Die Beschreibung des Skills","Das Kontextfenster"],["MCP","The prompt","The description of the skill","The context window"]],
+     e:["MCP verbindet KI-Anwendungen mit externen Systemen.","MCP connects AI applications with external systems."],
+     p:["MCP = Womit.","MCP = with what."]},
+    {q:["Welcher Baustein liefert die wiederverwendbare Anleitung?","Which building block provides the reusable instructions?"],
+     a:[["Der Skill","Der Loop","Das Kontextfenster","Der MCP-Server"],["The skill","The loop","The context window","The MCP server"]],
+     e:["Ein Skill bündelt eine Anleitung, die bei passender Aufgabe geladen wird.","A skill bundles instructions that load when the task fits."],
+     p:["Skill = Wie.","Skill = how."]},
+    {q:["Was macht der Prompt in einem Agenten-Ablauf?","What does the prompt do in an agent flow?"],
+     a:[["Er nennt das Ziel der Aufgabe","Er ersetzt den Skill","Er ersetzt den MCP-Server","Er beendet den Loop"],["It names the goal of the task","It replaces the skill","It replaces the MCP server","It ends the loop"]],
+     e:["Der Prompt sagt, was erreicht werden soll. Skill, MCP und Loop helfen beim Wie.","The prompt says what should be achieved. Skill, MCP and loop help with how."],
+     p:["Prompt = Was.","Prompt = what."]},
+    {q:["Nur ein Prompt, aber der Agent soll das Ticketsystem nutzen. Was fehlt?","Only a prompt, but the agent should use the ticket system. What is missing?"],
+     a:[["Eine Verbindung zum System, zum Beispiel über MCP","Ein größerer Bildschirm für den Nutzer","Mehr Großbuchstaben im Prompt","Ein neuer Name für den Skill"],["A connection to the system, for example via MCP","A bigger screen for the user","More capital letters in the prompt","A new name for the skill"]],
+     e:["Ohne Zugang kann der Agent das System nicht bedienen. MCP ist ein Weg dafür.","Without access the agent cannot operate the system. MCP is one way to provide it."],
+     p:["Wissen (Skill) ersetzt keinen Zugang (MCP).","Know-how (skill) does not replace access (MCP)."]}],
+   dd:{de:{dd:1,q:"Ordne zu: Welcher Baustein übernimmt welche Aufgabe?",slots:["Das Ziel der Aufgabe nennen","Die Schritt-für-Schritt-Anleitung liefern","Den Zugang zum Ticketsystem herstellen","Die Arbeit in Runden wiederholen, bis sie fertig ist"],items:["Prompt","Skill","MCP","Loop"],e:"Der Prompt nennt das Ziel, der Skill liefert die Anleitung, MCP den Zugang, und der Loop wiederholt die Arbeit bis zum Ergebnis."},
+       en:{dd:1,q:"Match them: which building block takes which job?",slots:["Name the goal of the task","Provide the step-by-step instructions","Establish access to the ticket system","Repeat the work in rounds until it is done"],items:["Prompt","Skill","MCP","Loop"],e:"The prompt names the goal, the skill provides the instructions, MCP the access, and the loop repeats the work until the result."}}},
+
+ { t:["Profi: sicher und zuverlässig arbeiten","Professional: working safely and reliably"],
+   ben:["Du wählst das richtige Mittel, erzwingst Regeln und gehst sicher mit Zugängen um.","You choose the right tool, enforce rules and handle access safely."],
+   l:[["Je mehr eine KI darf, desto wichtiger werden Regeln. Wichtig ist der Unterschied: Prompt, CLAUDE.md und Skill sind Kontext, kein Zwang. Wer eine Regel erzwingen will, nutzt Berechtigungen oder einen Hook.",
+       "H:Berechtigungen und Hooks",
+       "In Claude Code gelten Regeln in der Reihenfolge: zuerst deny, dann ask, dann allow. Der erste Treffer entscheidet. Ein Hook (zum Beispiel PreToolUse) führt bei einem Ereignis immer einen Befehl aus oder blockiert einen Aufruf, statt auf die Entscheidung der KI zu hoffen.",
+       "H:MCP sicher nutzen",
+       "MCP-Tools können beliebigen Code ausführen und Daten abrufen. Behandle sie mit Vorsicht, hole vor Aufrufen die Zustimmung ein und prüfe, ob du einem Server traut. Server, die externe Inhalte laden, können dich einem Prompt-Injection-Risiko aussetzen.",
+       "H:Zugangsdaten",
+       "Passwörter, API-Schlüssel und Tokens gehören nie in Prompts, Chats, Skills oder Dokumente. Nutze Platzhalter wie <API_KEY>, einen Passwortmanager oder den Schlüsselbund des Systems. Wurde ein Geheimnis geteilt, gilt es als kompromittiert: sofort ändern und melden."],
+      ["The more an AI may do, the more rules matter. The key difference: prompt, CLAUDE.md and skill are context, not enforcement. To enforce a rule you use permissions or a hook.",
+       "H:Permissions and hooks",
+       "In Claude Code rules apply in this order: deny first, then ask, then allow. The first match decides. A hook (for example PreToolUse) always runs a command on an event or blocks a call, instead of hoping for the AI's decision.",
+       "H:Using MCP safely",
+       "MCP tools can run arbitrary code and fetch data. Treat them with caution, get consent before calls and check whether you trust a server. Servers that fetch external content can expose you to a prompt injection risk.",
+       "H:Credentials",
+       "Passwords, API keys and tokens never belong in prompts, chats, skills or documents. Use placeholders such as <API_KEY>, a password manager or the system keychain. If a secret was shared, treat it as compromised: change it immediately and report it."]],
+   q:[
+    {q:["Wie erzwingst du, dass eine Aktion immer passiert oder blockiert wird?","How do you enforce that an action always happens or is blocked?"],
+     a:[["Mit einem Hook, zum Beispiel PreToolUse","Mit einem längeren Prompt","Mit einem freundlicheren Ton","Mit mehr Beispielen im Prompt"],["With a hook, for example PreToolUse","With a longer prompt","With a friendlier tone","With more examples in the prompt"]],
+     e:["Hooks laufen bei Ereignissen immer; Prompts und CLAUDE.md sind Kontext, keine erzwungene Konfiguration.","Hooks always run on events; prompts and CLAUDE.md are context, not enforced configuration."],
+     p:["Erzwingen = Hook oder Berechtigung, nicht Bitten.","Enforce = hook or permission, not asking."]},
+    {q:["Welche Reihenfolge gilt bei Berechtigungsregeln in Claude Code?","Which order applies to permission rules in Claude Code?"],
+     a:[["Deny, dann ask, dann allow","Allow, dann ask, dann deny","Ask, dann allow, dann deny","Eine zufällige Reihenfolge"],["Deny, then ask, then allow","Allow, then ask, then deny","Ask, then allow, then deny","A random order"]],
+     e:["Regeln werden in der Reihenfolge deny, ask, allow ausgewertet. Der erste Treffer entscheidet.","Rules are evaluated in the order deny, ask, allow. The first match decides."],
+     p:["Verbote gehen vor Erlaubnissen.","Denials come before permissions."]},
+    {q:["Wie behandelst du MCP-Tools laut Spezifikation?","How do you treat MCP tools according to the specification?"],
+     a:[["Als möglichen Code-Aufruf, mit Vorsicht und Zustimmung","Immer als harmlos, weil sie standardisiert sind","Als reine Anzeige ohne Wirkung","Als Teil des Prompts, den man nicht prüft"],["As possible code execution, with caution and consent","Always as harmless because they are standardised","As a pure display without effect","As part of the prompt that is not checked"]],
+     e:["Tools stehen für beliebige Code-Ausführung und müssen mit Vorsicht behandelt werden; Nutzer sollen zustimmen.","Tools represent arbitrary code execution and must be treated with caution; users should consent."],
+     p:["Standard heißt nicht sicher.","Standard does not mean safe."]},
+    {q:["Wo dürfen Zugangsdaten nicht stehen?","Where must credentials not be?"],
+     a:[["In Prompts, Chats und SKILL.md-Dateien","In einem Passwortmanager","Im Schlüsselbund des Systems","In geschützten Einstellungen des Anbieters"],["In prompts, chats and SKILL.md files","In a password manager","In the system keychain","In protected settings of the provider"]],
+     e:["Zugangsdaten gehören nie in Prompts, Chats oder Skills. Nutze Platzhalter und einen Passwortmanager oder Schlüsselbund.","Credentials never belong in prompts, chats or skills. Use placeholders and a password manager or keychain."],
+     p:["Dies ist eine Sicherheitsregel bei Ninox (ISMS); Beispiel für sichere Ablage: Schlüsselbund bei OAuth in Claude Code.","This is a Ninox security rule (ISMS); example of safe storage: keychain for OAuth in Claude Code."]}],
+   dd:{de:{dd:1,q:"Ordne zu: Welches Mittel passt zu welcher Aufgabe?",slots:["Dauerwissen für ein Projekt, das als Kontext gilt","Wiederverwendbare Anleitung für passende Aufgaben","Zugang zu einem externen System","Eine Aktion immer erzwingen oder blockieren"],items:["CLAUDE.md","Skill","MCP","Hook"],e:"CLAUDE.md ist immer im Kontext, ein Skill lädt bei Bedarf, MCP verbindet Systeme, und ein Hook erzwingt Aktionen."},
+       en:{dd:1,q:"Match them: which tool fits which job?",slots:["Standing knowledge for a project that applies as context","Reusable instructions for matching tasks","Access to an external system","Always enforce or block an action"],items:["CLAUDE.md","Skill","MCP","Hook"],e:"CLAUDE.md is always in the context, a skill loads on demand, MCP connects systems and a hook enforces actions."}}}
+];
+
+// Quellen (alle am 13.10.2026 abgerufen). SRC[Schluessel] = [Titel DE, Titel EN, URL]; QSRC[Lektion][Frage] = Schluessel.
+const SRC = {
+ pbp:["Anthropic: Prompting best practices","Anthropic: Prompting best practices","https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"],
+ cw:["Anthropic: Context windows","Anthropic: Context windows","https://platform.claude.com/docs/en/build-with-claude/context-windows"],
+ sk:["Anthropic: Agent Skills","Anthropic: Agent Skills","https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview"],
+ ags:["agentskills.io: Agent Skills Overview","agentskills.io: Agent Skills Overview","https://agentskills.io/home"],
+ tu:["Anthropic: Tool use with Claude","Anthropic: Tool use with Claude","https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview"],
+ mcp:["modelcontextprotocol.io: What is MCP?","modelcontextprotocol.io: What is MCP?","https://modelcontextprotocol.io/docs/getting-started/intro"],
+ mar:["modelcontextprotocol.io: Architecture overview","modelcontextprotocol.io: Architecture overview","https://modelcontextprotocol.io/docs/learn/architecture"],
+ hcc:["Claude Code: How Claude Code works","Claude Code: How Claude Code works","https://code.claude.com/docs/en/how-claude-code-works"],
+ loop:["Claude Agent SDK: How the agent loop works","Claude Agent SDK: How the agent loop works","https://code.claude.com/docs/en/agent-sdk/agent-loop"],
+ bea:["Anthropic: Building effective agents","Anthropic: Building effective agents","https://www.anthropic.com/engineering/building-effective-agents"],
+ sub:["Claude Code: Create custom subagents","Claude Code: Create custom subagents","https://code.claude.com/docs/en/sub-agents"],
+ hk:["Claude Code: Automate actions with hooks","Claude Code: Automate actions with hooks","https://code.claude.com/docs/en/hooks-guide"],
+ perm:["Claude Code: Configure permissions","Claude Code: Configure permissions","https://code.claude.com/docs/en/permissions"],
+ msec:["modelcontextprotocol.io: Security best practices","modelcontextprotocol.io: Security best practices","https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices"],
+ mcc:["Claude Code: Connect to tools via MCP","Claude Code: Connect to tools via MCP","https://code.claude.com/docs/en/mcp"],
+ mem:["Claude Code: How Claude remembers your project","Claude Code: How Claude remembers your project","https://code.claude.com/docs/en/memory"]
+};
+const QSRC = [
+ ["pbp","pbp","pbp","pbp"],
+ ["cw","cw","cw","pbp"],
+ ["sk","ags","sk","sk"],
+ ["tu","tu","tu","tu"],
+ ["mcp","mcp","mcp","mar"],
+ ["hcc","loop","hcc","loop"],
+ ["bea","bea","bea","sub"],
+ ["mcp","sk","bea","mcp"],
+ ["hk","perm","msec","mcc"]
+];
+const src = (i, j, l) => { const s = SRC[QSRC[i][j]]; return [(l ? "Source: " : "Quelle: ") + s[l] + (l ? " (as of 13 Oct 2026)" : " (Stand 13.10.2026)"), s[2]]; };
+
+// Ableitung der Felder der Vorlage
+const LEVELS = CH.map(c => ({t:c.t[0], l:c.l[0], f:c.q.map(q => ({q:q.q[0], a:q.a[0], e:q.e[0]}))}));
+const ENT = CH.map(c => c.t[1]);
+const EN = {};
+CH.forEach((c, i) => { EN[i] = {t:c.t[1], l:c.l[1], f:c.q.map(q => ({q:q.q[1], a:q.a[1] || q.a[0], e:q.e[1]}))}; });
+const PRAXIS = CH.map((c, i) => c.q.map((q, j) => ({t:"Merkhilfe", c:q.p[0], n:"Stand der Quellen: 13.10.2026.", u:src(i, j, 0)})));
+const ENP = {};
+CH.forEach((c, i) => { ENP[i] = c.q.map((q, j) => ({t:"Memory aid", c:q.p[1], n:"Sources as of 13 Oct 2026.", u:src(i, j, 1)})); });
+const BEN = {de:CH.map(c => c.ben[0]), en:CH.map(c => c.ben[1])};
+const DD = {};
+CH.forEach((c, i) => { if(c.dd) DD[i] = c.dd; });
+const RANKS = {de:["Entdecker","Anwender","Praktiker","Kenner","Gestalter","Spezialist","Könner","Experte","Profi"],en:["Explorer","Operator","Practitioner","Connoisseur","Builder","Specialist","Strategist","Expert","Pro"]};
+const SEC = [0,3,6];
+
+const STR = {
+ de:{title:"Skill-Trainer",ctaFirst:"Jetzt starten: Oberfläche kennenlernen",ctaStartCh:"Weiter mit dem Start-Kapitel",startLbl:"Start",ctaGo:"Weiter mit ",pMin:"Jedes Kapitel dauert nur wenige Minuten. Am Ende wartet dein Zertifikat.",pOf:" von ",pDone:" geschafft",pRest:" · noch ",pToPro:" bis zum Profi",pAll:"Alle Kapitel geschafft. Du bist Profi. Dein Zertifikat ist bereit.",next:"Als Nächstes",gain:"Das nimmst du mit",gainMin:"Etwa ",gainMin2:" Minuten",gainQ:" Fragen",gainRule:"Ab ",gainRule2:" richtig wird das nächste Kapitel frei.",perfect:"Perfekt, alles richtig! ",vPass2:"Das nächste Kapitel ist freigeschaltet.",rankNow:"Dein Rang: ",restA:"Noch ",restB:" Kapitel bis zum Profi.",restB1:" Kapitel bis zum Profi.",needA:"Du brauchst mindestens ",needB:" richtig.",nextWith:"Weiter mit ",linkCopied:"Der Link lässt sich hier nicht öffnen. Adresse kopiert:",linkBlocked:"Der Link lässt sich hier nicht öffnen. Bitte Adresse im Browser einfügen:",foldHint:"Antippen zum Aufklappen",pRead:"Lesen",pEnd:"Ergebnis",crumbDone:"Kapiteln geschafft",lead:"Skills sind eine Schlüsselkompetenz für alle, die mit KI arbeiten. Wer sie beherrscht, hat einen klaren Vorsprung.",claim:"Bring deiner KI bei, wie du arbeitest",why:["Einmal erklären, immer nutzen|Einstieg: nie wieder dieselben Prompts tippen. Profi: Regeln, Skripte und Vorlagen als feste Basis.","Ein Skill für das ganze Team|Einstieg: alle bekommen dieselbe Qualität. Profi: ein Ordner, den man pflegt und teilt wie Code.","Nicht an ein Werkzeug gebunden|Einstieg: dein Wissen bleibt bei dir. Profi: offener Standard, auch per API nutzbar."],intro:"Skills machen aus einer KI deinen Spezialisten: mit deinem Wissen, deinen Regeln und deinen Vorlagen. Wer sie kennt, arbeitet schneller, sicherer und im Team. Am Ende bekommst du ein Zertifikat zum Herunterladen.",note:"Gilt für Claude und viele weitere KI-Werkzeuge, denn SKILL.md ist ein offener Standard.",rank0:"Dein Rang: Starter",rank:"Dein Rang: ",locked:"Erst das vorherige Kapitel abschließen",unplayed:"",best:"Bestes Ergebnis: ",of:" von ",question:"Frage ",correct:" richtig",done:"Kapitel abgeschlossen",exShow:"▸ Praxisbeispiel anschauen",exHide:"▾ Praxisbeispiel ausblenden",ok:"Richtig. ",bad:"Leider falsch. ",result:"Ergebnis ansehen",nextB:"Weiter",vFail:"Noch nicht ganz. Lies das Kapitel noch einmal und versuche es erneut.",vsT:"Der Unterschied",vsNo:"Ohne Skill",vsNoT:"Du erklärst bei jeder Aufgabe wieder alles neu: Aufbau, Ton, Prüfpunkte.",vsYes:"Mit Skill",vsYesT:"Du sagst, was du brauchst. Alles andere steht schon im Skill.",vDone:"Geschafft! Du kannst jetzt jeder KI beibringen, wie du arbeitest. Dein Zertifikat ist bereit.",vPass:"Bestanden! Das nächste Kapitel ist freigeschaltet.",review:"<p>Zum Nachschärfen:</p>",right:"Richtig: ",again:"Kapitel wiederholen",overview:"Zur Übersicht",nextLv:"Nächstes Kapitel",confirm:"Gesamten Fortschritt löschen?",startQ:"Fragen starten",lvl:"Lektion",tip:"Merke",eyebrow:"Skill-Trainer · 12 Kapitel",s2:"Grundlagen",s1:"Start",s3:"Vertiefung",s4:"Praxis",fmLabel:"① Kopf der Datei: die Beschreibung (Frontmatter)",bodyLabel:"② Darunter: die Anleitung für Claude",check:"Prüfen",ddHint:"Ziehe die Begriffe in die passenden Felder. Oder tippe einen Begriff an und dann das Feld.",solution:"Lösung",prev:"← Vorherige Frage",reset:"Fortschritt zurücksetzen",keysT:"Nützliche Tastaturkürzel",keysP:"Gilt für Claude Code im Terminal (laut Claude-Code-Doku). In der Desktop-App oder je nach Terminal können einzelne Kürzel abweichen. Probiere sie aus, ohne etwas zu löschen.",keysL:"Alle Kürzel in der Doku",usT:"Nützliche Skills",usP:"Lies einen Skill vor dem ersten Einsatz selbst durch (Sicherheitscheck in Lektion 9). Die letzte Prüfung bleibt bei dir.",home:"Übersicht",leaveQ:"Quiz verlassen? Der Stand dieser Runde geht verloren.",ver:"Version",hint:"Tipp: Tasten 1 bis 4 wählen die Antwort, ← zurück, → weiter."},
+ en:{title:"Skill-Trainer",ctaFirst:"Start now: get to know the interface",ctaStartCh:"Continue with the start chapter",startLbl:"Start",ctaGo:"Continue with ",pMin:"Each chapter takes just a few minutes. Your certificate waits at the end.",pOf:" of ",pDone:" done",pRest:" · ",pToPro:" to go to Pro",pAll:"All chapters done. You are a pro. Your certificate is ready.",next:"Up next",gain:"What you take away",gainMin:"About ",gainMin2:" minutes",gainQ:" questions",gainRule:"At ",gainRule2:" correct, the next chapter unlocks.",perfect:"Perfect, all correct! ",vPass2:"The next chapter is unlocked.",rankNow:"Your rank: ",restA:"",restB:" chapters to go until Pro.",restB1:" chapter to go until Pro.",needA:"You need at least ",needB:" correct.",nextWith:"Continue with ",linkCopied:"This link cannot be opened here. Address copied:",linkBlocked:"This link cannot be opened here. Please paste the address into your browser:",foldHint:"Tap to expand",pRead:"Read",pEnd:"Result",crumbDone:"chapters done",lead:"Skills are a key competence for everyone who works with AI. Anyone who masters them has a clear edge.",claim:"Teach your AI how you work",why:["Explain once, use always|Getting started: never retype the same prompts. Pro: rules, scripts and templates as a fixed base.","One skill for the whole team|Getting started: everyone gets the same quality. Pro: one folder you maintain and share like code.","Not tied to one tool|Getting started: your knowledge stays yours. Pro: open standard, also usable via API."],intro:"Skills turn an AI into your specialist: with your knowledge, your rules and your templates. Anyone who knows them works faster, safer and as a team. At the end you get a certificate to download.",note:"Works with Claude and many other AI tools, because SKILL.md is an open standard.",rank0:"Your rank: Starter",rank:"Your rank: ",locked:"Finish the previous chapter first",unplayed:"",best:"Best result: ",of:" of ",question:"Question ",correct:" correct",done:"chapters completed",exShow:"▸ View practical example",exHide:"▾ Hide practical example",ok:"Correct. ",bad:"Not quite. ",result:"See result",nextB:"Next",vFail:"Not quite yet. Read the chapter again and try once more.",vsT:"The difference",vsNo:"Without a skill",vsNoT:"You explain everything again for every task: structure, tone, checkpoints.",vsYes:"With a skill",vsYesT:"You say what you need. Everything else is already in the skill.",vDone:"Done! You can now teach any AI how you work. Your certificate is ready.",vPass:"Passed! The next chapter is unlocked.",review:"<p>To review:</p>",right:"Correct: ",again:"Repeat chapter",overview:"Back to overview",nextLv:"Next chapter",confirm:"Delete all progress?",startQ:"Start questions",lvl:"Lesson",tip:"Note",eyebrow:"Skill-Trainer · 12 chapters",s2:"Basics",s1:"Start",s3:"Deep dive",s4:"Practice",fmLabel:"① Top of the file: the description (frontmatter)",bodyLabel:"② Below it: the instructions for Claude",check:"Check",ddHint:"Drag the terms into the matching fields. Or tap a term, then a field.",solution:"Solution",prev:"← Previous question",reset:"Reset progress",keysT:"Useful keyboard shortcuts",keysP:"Applies to Claude Code in the terminal (per the Claude Code docs). In the desktop app or depending on the terminal, some shortcuts may differ. Try them out without deleting anything.",keysL:"All shortcuts in the docs",usT:"Useful skills",usP:"Read a skill yourself before the first use (safety check in lesson 9). The final check is yours.",home:"Overview",leaveQ:"Leave the quiz? The progress of this round will be lost.",ver:"Version",hint:"Tip: keys 1 to 4 pick an answer, ← back, → next."}
+};
+let lang = (()=>{try{return localStorage.getItem("prompt_skill_agent_mcp_lern_app_lang")}catch(e){return null}})() || ((navigator.language||"de").startsWith("de") ? "de" : "en");
+const t = k => STR[lang][k];
+const lbl = i => t("lvl") + " " + (i+1);
+const ctr = i => lbl(i) + t("of") + LEVELS.length;
+const L = i => lang === "en" ? (EN[i] || Object.assign({}, LEVELS[i], {t: ENT[i]})) : LEVELS[i];
+const P = (i,j) => (lang === "en" && ENP[i]) ? ENP[i][j] : PRAXIS[i][j];
+const USEFUL = [
+ ["Prompts","Prompts","Anthropic: Prompting best practices","Anthropic: Prompting best practices","Die offiziellen Empfehlungen für gute Prompts.","The official recommendations for good prompts.","https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices"],
+ ["Skills","Skills","agentskills.io: Agent Skills","agentskills.io: Agent Skills","Der offene Standard für Skills und die Liste der Werkzeuge, die ihn lesen.","The open standard for skills and the list of tools that read it.","https://agentskills.io/home"],
+ ["MCP","MCP","modelcontextprotocol.io","modelcontextprotocol.io","Einführung, Architektur und Spezifikation von MCP.","Introduction, architecture and specification of MCP.","https://modelcontextprotocol.io/docs/getting-started/intro"],
+ ["Agenten","Agents","Anthropic: Building effective agents","Anthropic: Building effective agents","Workflows und Agenten, mit Empfehlungen zum Einstieg.","Workflows and agents, with recommendations for getting started.","https://www.anthropic.com/engineering/building-effective-agents"]
+];
+let toastT = null;
+function toast(msg){const el = $("toast"); el.textContent = msg; el.classList.remove("hide"); clearTimeout(toastT); toastT = setTimeout(() => el.classList.add("hide"), 7000);}
+function copyText(s){
+  try{ if(navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(s).then(() => true, () => false); }catch(e){}
+  try{ const ta = document.createElement("textarea"); ta.value = s; ta.style.cssText = "position:fixed;opacity:0"; document.body.appendChild(ta); ta.select(); const ok = document.execCommand("copy"); ta.remove(); return Promise.resolve(ok); }catch(e){ return Promise.resolve(false); }
+}
+const EXT_TARGET = "promptskillagentmcplernapp";
+let extWin = null;
+function openExt(url){
+  // 1. schon geöffnetes Fenster wiederverwenden (eigener Griff, unabhängig vom Fensternamen)
+  try{ if(extWin && !extWin.closed){ extWin.location.href = url; extWin.focus(); return; } }catch(e){ extWin = null; }
+  // 2. sonst ein Fenster mit festem Namen öffnen (findet ein vorhandenes Fenster gleichen Namens)
+  let w = null;
+  try{ w = window.open(url, EXT_TARGET); }catch(e){}
+  if(w){ extWin = w; try{ w.opener = null; w.focus(); }catch(e){} return; }
+  copyText(url).then(ok => toast((ok ? t("linkCopied") : t("linkBlocked")) + " " + url));
+}
+const link = (txt, url) => { const a = document.createElement("a"); a.href = url; a.target = EXT_TARGET; a.rel = "noopener noreferrer"; a.textContent = txt; a.addEventListener("click", e => { e.preventDefault(); openExt(url); }); return a; };
+function foldOpen(id){const d = $(id).querySelector("details"); return !!(d && d.open);}
+function mkFold(id, title, build){
+  const u = $(id), was = foldOpen(id); u.innerHTML = "";
+  const d = document.createElement("details"); d.className = "fold"; d.open = was;
+  const sm = document.createElement("summary"); sm.textContent = title; d.appendChild(sm);
+  const body = document.createElement("div"); body.className = "foldb"; build(body); d.appendChild(body); u.appendChild(d);
+  d.addEventListener("toggle", () => { if(d.open) document.querySelectorAll(".useful details.fold").forEach(o => { if(o !== d) o.open = false; }); });
+}
+function renderUseful(){
+  mkFold("useful", t("usT"), body => {
+    const ul = document.createElement("ul");
+    USEFUL.forEach(x => { const li = document.createElement("li"); const k = document.createElement("small"); k.textContent = lang === "en" ? x[1] : x[0]; li.appendChild(k); li.appendChild(link(lang === "en" ? x[3] : x[2], x[6])); const s = document.createElement("span"); s.textContent = lang === "en" ? x[5] : x[4]; li.appendChild(s); ul.appendChild(li); });
+    body.appendChild(ul);
+    const p = document.createElement("p"); p.textContent = t("usP"); body.appendChild(p);
+  });
+}function renderWhy(){
+  const w = $("why"); w.innerHTML = "";
+  t("why").forEach(x => {
+    const [k, a] = x.split("|");
+    const d = document.createElement("div"); d.className = "pt";
+    const bb = document.createElement("b"); bb.textContent = k; d.appendChild(bb);
+    const r = document.createElement("p"); r.textContent = a; d.appendChild(r);
+    w.appendChild(d);
+  });
+}
+function renderVs(){
+  const v = $("vs"); v.innerHTML = "";
+  [["no","vsNo","vsNoT"],["yes","vsYes","vsYesT"]].forEach(([c,a,b]) => {
+    const d = document.createElement("div"); d.className = "vsr " + c;
+    const k = document.createElement("b"); k.textContent = t(a); d.appendChild(k);
+    const s = document.createElement("span"); s.textContent = t(b); d.appendChild(s);
+    v.appendChild(d);
+  });
+}
+function applyLang(){
+  renderWhy(); renderVs(); renderUseful();
+  document.documentElement.lang = lang; document.title = t("title");
+  $("lead").textContent = t("lead"); $("h1").textContent = t("claim"); $("eyebrow").textContent = t("eyebrow"); $("intro").textContent = t("intro"); $("note").textContent = t("note");
+  $("start").textContent = t("startQ"); $("back1").textContent = $("back2").textContent = t("overview"); $("lhomeT").textContent = $("qhomeT").textContent = $("ehomeT").textContent = t("home");
+  $("back").textContent = t("prev"); $("reset").textContent = t("reset"); $("vlab").textContent = t("ver"); $("hint").textContent = t("hint");
+  ["de","en"].forEach(l => $("l-"+l).setAttribute("aria-pressed", String(l === lang)));
+}
+function setLang(l){
+  if(l === lang) return;
+  lang = l; try{localStorage.setItem("prompt_skill_agent_mcp_lern_app_lang", l)}catch(e){} applyLang();
+  const y = window.scrollY, vis = ["map","lesson","quiz","end","cert"].find(s => !$(s).classList.contains("hide"));
+  if(vis === "cert") openCert();
+  else if(vis === "lesson") openLesson(cur);
+  else if(vis === "quiz"){ relang(); frage(); }
+  else if(vis === "end"){ relang(); ende(true); }
+  else showMap();
+  try{ window.scrollTo({top:y,behavior:"instant"}); }catch(e){ window.scrollTo(0,y); }
+}
+function relang(){
+  const f = L(cur).f;
+  verlauf.forEach((v,n) => { if(!v || !f[n]) return; v.q = f[n].q;
+    if(f[n].dd) v.richtig = f[n].slots.map((x,i)=>x+" → "+f[n].items[i]).join("; ");
+    else { v.richtig = f[n].a[0]; v.opts = v.opts.map(o => ({t:f[n].a[o.i], ok:o.ok, i:o.i})); } });
+}
+document.addEventListener("keydown", e => {
+  if($("quiz").classList.contains("hide") || e.ctrlKey || e.metaKey || e.altKey) return;
+  const o = [...document.querySelectorAll("#opts .opt")];
+  if(e.key >= "1" && e.key <= "4" && o[+e.key-1] && !o[+e.key-1].disabled) o[+e.key-1].click();
+  else if(e.key === "ArrowRight" && !$("next").classList.contains("hide")) $("next").click();
+  else if(e.key === "ArrowLeft" && !$("back").classList.contains("hide")) $("back").click();
+});
+Object.keys(DD).forEach(i=>{LEVELS[i].f.push(DD[i].de); EN[i].f.push(DD[i].en);});
+const esc = x => x.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+const lineHTML = x => x.startsWith("$ ") ? '<span class="pr">$</span> ' + esc(x.slice(2)) : esc(x).replace(/^(name|description):/,'<span class="k">$1:</span>').replace(/^(#+ .*)$/,'<span class="hd">$1</span>').replace(/^(Du|You|Claude):/,'<span class="who">$1:</span>').replace(/(✔)/g,'<span class="okc">$1</span>').replace(/(✘)/g,'<span class="badc">$1</span>');
+const pre = (c, cls) => '<pre class="code ' + (cls||"") + '">' + c.split("\n").map(lineHTML).join("\n") + '</pre>';
+function fmt(c){
+  const m = c.match(/^(---\n[\s\S]*?\n---)\n*([\s\S]*)$/);
+  if(!m) return pre(c);
+  return '<div class="plabel">' + t("fmLabel") + '</div>' + pre(m[1], "fm") + (m[2].trim() ? '<div class="plabel">' + t("bodyLabel") + '</div>' + pre(m[2].trim(), "bd") : "");
+}
+const sol = q => ({t:t("solution"), c:q.slots.map((x,i)=>x+"   →   "+q.items[i]).join("\n")});
+let ddMoved = false;
+function afterAnswer(ok, f, fokus){
+  $("fb").textContent = (ok ? t("ok") : t("bad")) + f.e; $("fb").classList.remove("hide");
+  $("next").textContent = idx === S().f.length-1 ? t("result") : t("nextB"); $("next").classList.remove("hide");
+  renderEx(); $("exbtn").classList.remove("hide"); if(fokus) $("next").focus();
+}
+function renderDD(f, v){
+  const box = $("opts"), st = {place: v ? v.dd.slice() : f.slots.map(()=>-1), order: shuffle(f.items.map((_,i)=>i)), sel: null, locked: !!v};
+  function put(k, i){const old = st.place[i], src = st.place.indexOf(k); if(src >= 0) st.place[src] = old; st.place[i] = k; st.sel = null; draw();
+    if(!st.place.includes(-1)){ const b = $("ddcheck"); if(b){ try{ b.scrollIntoView({block:"nearest", behavior:"smooth"}); }catch(_){} } } }
+  function chip(k, from){
+    const c = document.createElement("button"); c.type = "button"; c.className = "chip" + (st.sel === k ? " sel" : ""); c.textContent = f.items[k]; c.disabled = st.locked;
+    c.onpointerdown = e => {if(!st.locked) startDrag(e, c, k);};
+    c.onclick = e => {e.stopPropagation(); if(ddMoved || st.locked) return; if(from >= 0){st.place[from] = -1; st.sel = null;} else st.sel = st.sel === k ? null : k; draw();};
+    return c;
+  }
+  function startDrag(e, c, k){
+    const x0 = e.clientX, y0 = e.clientY, touch = e.pointerType === "touch", off = touch ? 64 : 20; let ghost = null, lastY = y0, timer = null;
+    const move = ev => {
+      if(!ghost && Math.hypot(ev.clientX-x0, ev.clientY-y0) > 6){ghost = c.cloneNode(true); ghost.className = "chip dragging"; ghost.style.width = c.offsetWidth + "px"; document.body.appendChild(ghost); c.style.opacity = ".35"; ddMoved = true; timer = setInterval(() => { try{ if(lastY < 90) window.scrollBy(0, -14); else if(lastY > window.innerHeight - 90) window.scrollBy(0, 14); }catch(_){} }, 30);}
+      lastY = ev.clientY;
+      if(ghost){ghost.style.left = (ev.clientX-20) + "px"; ghost.style.top = (ev.clientY-off) + "px"; document.querySelectorAll(".slot.over").forEach(x=>x.classList.remove("over")); const el = document.elementFromPoint(ev.clientX, ev.clientY), sl = el && el.closest(".slot"); if(sl) sl.classList.add("over");}
+    };
+    const up = ev => {
+      document.removeEventListener("pointermove", move); document.removeEventListener("pointerup", up); document.removeEventListener("pointercancel", up);
+      setTimeout(()=>{ddMoved = false;}, 50);
+      if(timer) clearInterval(timer);
+      if(!ghost) return;
+      ghost.remove();
+      const el = document.elementFromPoint(ev.clientX, ev.clientY), sl = el && el.closest(".slot");
+      if(sl) put(k, +sl.dataset.i); else {const src = st.place.indexOf(k); if(src >= 0 && el && el.closest(".pool")) st.place[src] = -1; draw();}
+    };
+    document.addEventListener("pointermove", move); document.addEventListener("pointerup", up); document.addEventListener("pointercancel", up);
+  }
+  function check(){
+    st.locked = true;
+    const ok = st.place.every((k,i)=>f.items[k] === f.items[i]);
+    verlauf[idx] = {ok, q:f.q, richtig:f.slots.map((x,i)=>x+" → "+f.items[i]).join("; "), dd:st.place.slice()};
+    if(ok) punkte++;
+    $("pts").textContent = punkte + t("correct");
+    draw(); afterAnswer(ok, f, true); bar();
+  }
+  function draw(){
+    box.innerHTML = "";
+    const h = document.createElement("p"); h.className = "hint"; h.textContent = t("ddHint"); box.appendChild(h);
+    f.slots.forEach((lab,i)=>{
+      const sl = document.createElement("div"); sl.className = "slot"; sl.dataset.i = i;
+      if(st.locked) sl.classList.add(f.items[st.place[i]] === f.items[i] ? "ok" : "bad");
+      sl.innerHTML = '<span class="sl"></span><span class="drop"></span>'; sl.firstChild.textContent = lab;
+      if(st.place[i] >= 0) sl.lastChild.appendChild(chip(st.place[i], i));
+      sl.onclick = () => {if(!st.locked && st.sel !== null) put(st.sel, i);};
+      box.appendChild(sl);
+    });
+    const pool = document.createElement("div"); pool.className = "pool";
+    st.order.filter(k=>!st.place.includes(k)).forEach(k=>pool.appendChild(chip(k, -1)));
+    box.appendChild(pool);
+    if(!st.locked){const b = document.createElement("button"); b.className = "primary"; b.type = "button"; b.id = "ddcheck"; b.textContent = t("check"); b.disabled = st.place.includes(-1); b.onclick = check; box.appendChild(b);}
+  }
+  draw(); if(v) afterAnswer(v.ok, f, false);
+}
+const $ = id => document.getElementById(id);
+const toTop = () => { try{ window.scrollTo({top:0,behavior:"instant"}); }catch(e){ window.scrollTo(0,0); } };
+const show = id => { ["map","lesson","quiz","end","cert"].forEach(s => $(s).classList.toggle("hide", s !== id)); crumb(); toTop(); };
+let prog = {}, cur = 0, idx = 0, punkte = 0, verlauf = [];
+function S(){
+  const f = L(cur).f;
+  return {f, px: f.map((x,j)=>x.dd ? sol(x) : P(cur,j))};
+}
+function shiftUp(o){const r = {}; Object.keys(o).forEach(k => { const m = /^(n?)(\d+)$/.exec(k); if(m){ const i = +m[2]; r[m[1] + (i >= 1 ? i + 1 : i)] = o[k]; } }); return r;}
+function load(){
+  try{
+    const c = localStorage.getItem("prompt_skill_agent_mcp_lern_app_prog_v1");
+    prog = c ? (JSON.parse(c) || {}) : {};
+  }catch(e){prog = {}}
+}
+function save(){try{localStorage.setItem("prompt_skill_agent_mcp_lern_app_prog_v1", JSON.stringify(prog))}catch(e){}}
+function shuffle(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
+const passed = i => (prog[i] || 0) >= Math.ceil((prog["n"+i] || 4) * 0.75);
+const unlocked = i => i === 0 || passed(i-1) || passed(i);
+
+function nextIdx(){ for(let i = 0; i < LEVELS.length; i++) if(!passed(i)) return i; return -1; }
+function showMap(){
+  const n = LEVELS.filter((_,i)=>passed(i)).length, total = LEVELS.length, nx = nextIdx();
+  $("rank").textContent = n === 0 ? t("rank0") : t("rank") + RANKS[lang][n-1];
+  $("levels").innerHTML = "";
+  $("ovi").style.width = "0";
+  requestAnimationFrame(() => requestAnimationFrame(() => { $("ovi").style.width = (100*n/total) + "%"; }));
+  $("ovt").textContent = n === 0 ? t("pMin") : n === total ? t("pAll") : n + t("pOf") + total + t("pDone") + t("pRest") + (total-n) + t("pToPro");
+  $("note").classList.toggle("hide", !t("note"));
+  const cta = $("cta");
+  if(nx >= 0){ cta.textContent = n === 0 ? t("ctaFirst") : t("ctaGo") + lbl(nx) + ": " + L(nx).t; cta.onclick = () => openLesson(nx); }
+  else { cta.textContent = t("ctaCert"); cta.onclick = openCert; }
+  LEVELS.forEach((_,i)=>{const lv=L(i);
+    if(SEC.includes(i)){const h = document.createElement("h2"); h.className = "sec"; h.textContent = t("s"+(SEC.indexOf(i)+1)); $("levels").appendChild(h);}
+    const d = document.createElement("div");
+    d.className = "lv";
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = (passed(i) ? "done" : "") + (i === nx ? " next" : "");
+    b.disabled = !unlocked(i);
+    b.innerHTML = '<span class="nr"></span><span><b></b><small></small></span>';
+    b.querySelector(".nr").textContent = passed(i) ? "✓" : (i+1);
+    b.querySelector("b").textContent = lbl(i) + ": " + lv.t;
+    if(i === nx){ const bd = document.createElement("em"); bd.className = "badge"; bd.textContent = t("next"); b.querySelector("b").appendChild(bd); }
+    b.querySelector("small").textContent = !unlocked(i) ? t("locked")
+      : passed(i) ? t("best") + prog[i] + t("of") + lv.f.length
+      : BEN[lang][i];
+    b.onclick = () => openLesson(i);
+    d.appendChild(b);
+    $("levels").appendChild(d);
+  });
+  const hc = document.createElement("h2"); hc.className = "sec"; hc.textContent = t("s5"); $("levels").appendChild(hc);
+  const dc = document.createElement("div"); dc.className = "lv";
+  const bc = document.createElement("button"); bc.type = "button"; bc.className = "certb" + (n === total ? " ready" : ""); bc.disabled = n < total;
+  bc.innerHTML = '<span class="nr">★</span><span><b></b><small></small></span>';
+  bc.querySelector("b").textContent = t("certT");
+  bc.querySelector("small").textContent = n < total ? t("certLocked") + total + t("certLocked2") : t("certReady");
+  bc.onclick = openCert; dc.appendChild(bc); $("levels").appendChild(dc);
+  show("map");
+}
+
+function openLesson(i){
+  cur = i;
+  $("lvl").textContent = ctr(i);
+  $("ltitle").textContent = L(i).t;
+  const g = $("gain"), qn = L(i).f.length;
+  g.querySelector("b").textContent = t("gain");
+  g.querySelector("span").textContent = BEN[lang][i];
+  g.querySelector("small").textContent = t("gainMin") + (3 + Math.ceil(qn/2)) + t("gainMin2") + " · " + qn + t("gainQ") + " · " + t("gainRule") + Math.ceil(qn*0.75) + t("of") + qn + t("gainRule2");
+  $("ltext").innerHTML = ""; let tgt = $("ltext");
+  L(i).l.forEach(x=>{
+    if(x.startsWith("FOLD:")){const d = document.createElement("details"); d.className = "fold lfold"; const sm = document.createElement("summary"); const tw = document.createElement("span"); const tb = document.createElement("b"); const pr = x.slice(5).split("|"); tb.textContent = pr[0]; const th = document.createElement("small"); th.textContent = pr[1] || t("foldHint"); tw.appendChild(tb); tw.appendChild(th); sm.appendChild(tw); d.appendChild(sm); const b = document.createElement("div"); b.className = "foldb"; d.appendChild(b); $("ltext").appendChild(d); tgt = b; return;}
+    if(x === "ENDFOLD"){tgt = $("ltext"); return;}
+    if(x.startsWith("H:")){const h = document.createElement("h3"); h.className = "gh"; h.textContent = x.slice(2); tgt.appendChild(h); return;}
+    if(x.startsWith("LEG:")){const [n,k,a] = x.slice(4).split("|"); const d = document.createElement("div"); d.className = "leg"; const bi = document.createElement("i"); bi.textContent = n; const w = document.createElement("div"); const bb = document.createElement("b"); bb.textContent = k; const sp = document.createElement("span"); sp.textContent = a; w.appendChild(bb); w.appendChild(sp); d.appendChild(bi); d.appendChild(w); tgt.appendChild(d); return;}
+    const tree = x.startsWith("TREE:"); const p = document.createElement(tree ? "pre" : "p"); p.textContent = tree ? x.slice(5) : x; tgt.appendChild(p);
+  });
+  show("lesson");
+}
+
+function goHome(){ if(!$("quiz").classList.contains("hide") && verlauf.length > 0 && !confirm(t("leaveQ"))) return; showMap(); }
+function goChapter(){ if(!$("quiz").classList.contains("hide") && verlauf.length > 0 && !confirm(t("leaveQ"))) return; openLesson(cur); }
+function crumb(){
+  const box = $("crumb"); box.innerHTML = "";
+  const vis = ["map","lesson","quiz","end","cert"].find(s => !$(s).classList.contains("hide"));
+  const sep =() => { const s = document.createElement("span"); s.className = "sep"; s.setAttribute("aria-hidden", "true"); s.textContent = "›"; return s; };
+  const btn = (txt, fn) => { const b = document.createElement("button"); b.type = "button"; b.textContent = txt; b.onclick = fn; return b; };
+  const cur_ = txt => { const s = document.createElement("span"); s.className = "cur"; s.setAttribute("aria-current", "page"); s.textContent = txt; return s; };
+  if(vis === "map" || !vis){
+    const n = LEVELS.filter((_,i)=>passed(i)).length;
+    box.appendChild(cur_(t("home"))); const p = document.createElement("span"); p.className = "prog"; p.textContent = n + t("of") + LEVELS.length + " " + t("crumbDone"); box.appendChild(p); return;
+  }
+  box.appendChild(btn(t("home"), goHome)); box.appendChild(sep());
+  if(vis === "cert"){ box.appendChild(cur_(t("certT"))); return; }
+  if(vis === "lesson"){ box.appendChild(cur_(lbl(cur))); box.appendChild(sep()); const p = document.createElement("span"); p.className = "mute"; p.textContent = t("pRead"); box.appendChild(p); }
+  else {
+    box.appendChild(btn(lbl(cur), goChapter)); box.appendChild(sep());
+    box.appendChild(cur_(vis === "quiz" ? t("question") + (idx+1) + t("of") + S().f.length : t("pEnd")));
+  }
+}
+function startQuiz(){idx = 0; punkte = 0; verlauf = []; frage(); show("quiz");}
+
+function bar(){
+  $("bar").innerHTML = S().f.map((_,i)=>{
+    const r = verlauf[i];
+    return '<div class="seg '+(r===undefined ? (i===idx?"cur":"") : (r.ok?"ok":"bad"))+(i===idx?" now":"")+'"></div>';
+  }).join("");
+}
+
+function frage(){
+  toTop();
+  const f = S().f[idx];
+  const v = verlauf[idx];
+  const opts = f.dd ? [] : (v ? v.opts : shuffle(f.a.map((t,i)=>({t,ok:i===0,i}))));
+  $("count").textContent = t("question") + (idx+1) + t("of") + S().f.length; crumb();
+  $("pts").textContent = punkte + t("correct");
+  $("q").textContent = f.q;
+  $("qlesson").textContent = lbl(cur) + ": " + L(cur).t;
+  $("expl").classList.add("hide");
+  $("exbtn").classList.add("hide");
+  $("exbtn").textContent = t("exShow");
+  $("fb").classList.add("hide");
+  $("next").classList.add("hide");
+  $("back").classList.toggle("hide", idx === 0);
+  $("opts").innerHTML = "";
+  if(f.dd){renderDD(f, v); bar(); return;}
+  opts.forEach((o,k)=>{
+    const b = document.createElement("button");
+    b.className = "opt"; b.type = "button"; b.textContent = o.t; b.dataset.k = "ABCD"[k];
+    b.onclick = () => antwort(opts.indexOf(o), opts, f);
+    $("opts").appendChild(b);
+  });
+  if(v) zeigeAntwort(opts, v.pick, f, false);
+  bar();
+}
+
+function renderEx(){const e=S().px[idx];$("exh").textContent=e.t;$("exc").innerHTML=fmt(e.c);$("exn").textContent=e.n||""; $("exn").dataset.l=t("tip");$("exn").classList.toggle("hide",!e.n);
+  const xu = $("exu"); xu.innerHTML = ""; xu.classList.toggle("hide", !e.u);
+  if(e.u){ xu.appendChild(link(e.u[0], e.u[1])); }
+}
+
+function zeigeAntwort(opts, pick, f, fokus){
+  const o = opts[pick];
+  [...$("opts").children].forEach((b,i)=>{b.disabled = true; if(opts[i].ok) b.classList.add("ok")});
+  if(!o.ok) $("opts").children[pick].classList.add("bad");
+  $("fb").textContent = (o.ok ? t("ok") : t("bad")) + f.e;
+  $("fb").classList.remove("hide");
+  $("next").textContent = idx === S().f.length-1 ? t("result") : t("nextB");
+  $("next").classList.remove("hide");
+  renderEx();
+  $("exbtn").classList.remove("hide");
+  if(fokus) $("next").focus();
+}
+
+function antwort(pick, opts, f){
+  if(opts[pick].ok) punkte++;
+  verlauf[idx] = {ok:opts[pick].ok, q:f.q, richtig:f.a[0], opts, pick};
+  $("pts").textContent = punkte + t("correct");
+  zeigeAntwort(opts, pick, f, true);
+  bar();
+}
+
+function celebrate(){
+  try{ if(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return; }catch(e){}
+  const box = document.createElement("div"); box.className = "confetti"; box.setAttribute("aria-hidden", "true");
+  const cols = ["var(--brand)","var(--accent)","var(--ok)","#f5b942","#e8668b"];
+  for(let k = 0; k < 36; k++){
+    const p = document.createElement("i");
+    p.style.left = (Math.random()*100) + "%";
+    p.style.background = cols[k % cols.length];
+    p.style.setProperty("--dx", ((Math.random()-.5)*160) + "px");
+    p.style.setProperty("--rot", (Math.random()*720-360) + "deg");
+    p.style.animationDelay = (Math.random()*.5) + "s";
+    p.style.animationDuration = (1.6 + Math.random()*1.2) + "s";
+    box.appendChild(p);
+  }
+  document.body.appendChild(box);
+  setTimeout(() => box.remove(), 3600);
+}
+function ende(quiet){
+  const n = S().f.length, need = Math.ceil(n * 0.75), ok = punkte >= need, last = cur === LEVELS.length-1;
+  if(prog[cur] === undefined || punkte > prog[cur]){prog[cur] = punkte; prog["n"+cur] = n; save();}
+  const done = LEVELS.filter((_,i)=>passed(i)).length, rest = LEVELS.length - done;
+  $("etitle").textContent = L(cur).t; $("elbl").textContent = ctr(cur);
+  $("score").textContent = punkte + " / " + n; const sm_ = document.createElement("small"); sm_.textContent = t("correct"); $("score").appendChild(sm_);
+  $("score").classList.toggle("pass", ok);
+  let v;
+  if(!ok) v = t("vFail") + " " + t("needA") + need + t("of") + n + t("needB");
+  else if(last && rest === 0) v = t("vDone");
+  else v = (punkte === n ? t("perfect") + t("vPass2") : t("vPass")) + " " + t("rankNow") + RANKS[lang][Math.max(0,done-1)] + "." + (rest > 0 ? " " + t("restA") + rest + (rest === 1 ? t("restB1") : t("restB")) : "");
+  $("verdict").textContent = v;
+  const falsch = verlauf.filter(v=>!v.ok);
+  $("review").innerHTML = falsch.length ? t("review") + falsch.map(()=>'<div class="rev"><b></b><span></span></div>').join("") : "";
+  [...$("review").querySelectorAll(".rev")].forEach((el,i)=>{
+    el.querySelector("b").textContent = falsch[i].q;
+    el.querySelector("span").textContent = t("right") + falsch[i].richtig;
+  });
+  const toCert = ok && last && rest === 0;
+  $("main").textContent = !ok ? t("again") : toCert ? t("ctaCert") : last ? t("overview") : t("nextWith") + lbl(cur+1) + ": " + L(cur+1).t;
+  $("main").onclick = () => !ok ? openLesson(cur) : toCert ? openCert() : last ? showMap() : openLesson(cur+1);
+  show("end");
+  if(ok && !quiet) celebrate();
+}
+
+/* ---- Zertifikat (1.1.0) ---- */
+Object.assign(STR.de, {s5:"Abschluss", certT:"Zertifikat", certLocked:"Schließe alle ", certLocked2:" Kapitel ab, dann kannst du dein Zertifikat herunterladen.", certReady:"Geschafft! Ansehen und als PDF herunterladen.", ctaCert:"Zertifikat abholen",
+ certIntro:"Du hast alle Kapitel bestanden. Trage deinen Namen ein und lade dein Zertifikat herunter.", certName:"Dein Name auf dem Zertifikat", certNeed:"Bitte trage zuerst deinen Namen ein.", certPdf:"Als PDF herunterladen", certPng:"Als Bild (PNG) herunterladen", certNote:"Dein Name bleibt auf deinem Gerät und wird nirgends hochgeladen. Lernnachweis aus dem Selbstlernkurs, keine formale Prüfung.", certBack:"Zur Übersicht",
+ cHead:"ZERTIFIKAT", cSub:"Skill-Trainer", cIssuer:"Ninox", cConfirm:"Hiermit wird bestätigt, dass", cDid:"den Skill-Trainer vollständig abgeschlossen hat.", cRule:"Alle 12 Kapitel bestanden, jeweils mit mindestens 75 % richtiger Antworten.", cScore:"Gesamtergebnis: ", cScoreOf:" von ", cScoreEnd:" Fragen richtig", cDate:"Datum", cRank:"Rang", cNamePh:"Dein Name", cFoot:"Ninox Skill-Trainer · Version ", cFile:"Zertifikat-Skill-Trainer"});
+Object.assign(STR.en, {s5:"Completion", certT:"Certificate", certLocked:"Complete all ", certLocked2:" chapters, then you can download your certificate.", certReady:"Done! View it and download it as a PDF.", ctaCert:"Get your certificate",
+ certIntro:"You passed all chapters. Enter your name and download your certificate.", certName:"Your name on the certificate", certNeed:"Please enter your name first.", certPdf:"Download as PDF", certPng:"Download as image (PNG)", certNote:"Your name stays on your device and is not uploaded anywhere. Proof of learning from the self-study course, not a formal exam.", certBack:"Back to overview",
+ cHead:"CERTIFICATE", cSub:"Skill-Trainer", cIssuer:"Ninox", cConfirm:"This is to certify that", cDid:"has successfully completed the Skill-Trainer.", cRule:"All 12 chapters passed, each with at least 75% correct answers.", cScore:"Overall result: ", cScoreOf:" of ", cScoreEnd:" questions correct", cDate:"Date", cRank:"Rank", cNamePh:"Your name", cFoot:"Ninox Skill-Trainer · Version ", cFile:"Certificate-Skill-Trainer"});
+
+Object.assign(STR.de, {title:"KI verstehen: Prompt, Skill, MCP, Loop, Agent", ctaFirst:"Jetzt starten: den Prompt verstehen", pMin:"Jede Lektion dauert nur wenige Minuten. Am Ende wartet dein Zertifikat.",
+ lead:"Wer die Bausteine kennt, setzt KI gezielt ein: vom ersten Prompt bis zum Agenten.", claim:"Wie hängen Prompt, Skill, MCP, Loop und Agent zusammen?",
+ why:["Vom Einstieg zum Profi|Neun Lektionen mit steigendem Niveau, jede mit einem Beispiel.","Erklärung und Quelle|Nach jeder Antwort siehst du, warum sie stimmt und woher die Aussage stammt.","Ein roter Faden|Prompt = Was. Skill = Wie. MCP = Womit. Loop = Wie lange. Agent = Wer."],
+ intro:"Neun kurze Lektionen mit Beispielen: erst Prompt, Kontext und Skill, dann Tools, MCP und Loop, am Ende Agent, Zusammenspiel und sicheres Arbeiten. Erst lesen, dann Fragen beantworten. Am Ende bekommst du ein Zertifikat zum Herunterladen.",
+ note:"Stand der Quellen: 13.10.2026. Die Technik entwickelt sich schnell: Begriffe, Funktionen und Oberflächen können sich ändern. Aktuelles steht in den verlinkten Quellen.",
+ vsT:"Der Unterschied", vsNo:"Alles in einen Prompt packen", vsNoT:"Lange Prompts, jedes Mal neu getippt, ohne Zugang zu deinen Systemen.", vsYes:"Die richtigen Bausteine", vsYesT:"Prompt für das Ziel, Skill für das Wie, MCP für den Zugang, Agent für die Ausführung.",
+ vDone:"Geschafft! Du verstehst, wie Prompt, Skill, MCP, Loop und Agent zusammenarbeiten. Dein Zertifikat ist bereit.", eyebrow:"KI-Grundlagen · 9 Lektionen", s1:"Einsteigen", s2:"Verstehen", s3:"Profi",
+ exShow:"▸ Merkhilfe anschauen", exHide:"▾ Merkhilfe ausblenden", usT:"Weiterlesen", usP:"Offizielle Quellen zum Nachschlagen. Die letzte Prüfung bleibt bei dir.",
+ cSub:"KI verstehen: Prompt, Skill, MCP, Loop, Agent", cIssuer:"Ninox", cDid:"die Lern-App zu Prompt, Skill, MCP, Loop und Agent vollständig abgeschlossen hat.", cRule:"Alle 9 Lektionen bestanden, jeweils mit mindestens 75 % richtiger Antworten.", cFoot:"Ninox Lern-App Prompt, Skill, MCP, Loop, Agent · Version ", cFile:"Zertifikat-Prompt-Skill-MCP-Loop-Agent"});
+Object.assign(STR.en, {title:"Understanding AI: prompt, skill, MCP, loop, agent", ctaFirst:"Start now: understand the prompt", pMin:"Each lesson takes just a few minutes. Your certificate waits at the end.",
+ lead:"Whoever knows the building blocks uses AI purposefully: from the first prompt to the agent.", claim:"How do prompt, skill, MCP, loop and agent fit together?",
+ why:["From starter to pro|Nine lessons with rising difficulty, each with an example.","Explanation and source|After every answer you see why it is correct and where the statement comes from.","A common thread|Prompt = what. Skill = how. MCP = with what. Loop = how long. Agent = who."],
+ intro:"Nine short lessons with examples: first prompt, context and skill, then tools, MCP and loop, finally agent, interplay and working safely. Read first, then answer questions. At the end you get a certificate to download.",
+ note:"Sources as of 13 October 2026. The technology evolves quickly: terms, features and interfaces can change. Current information is in the linked sources.",
+ vsT:"The difference", vsNo:"Cramming everything into one prompt", vsNoT:"Long prompts, typed anew every time, without access to your systems.", vsYes:"The right building blocks", vsYesT:"Prompt for the goal, skill for the how, MCP for the access, agent for the execution.",
+ vDone:"Done! You understand how prompt, skill, MCP, loop and agent work together. Your certificate is ready.", eyebrow:"AI basics · 9 lessons", s1:"Getting started", s2:"Understanding", s3:"Pro",
+ exShow:"▸ View memory aid", exHide:"▾ Hide memory aid", usT:"Further reading", usP:"Official sources for looking things up. The final check is yours.",
+ cSub:"Understanding AI: prompt, skill, MCP, loop, agent", cIssuer:"Ninox", cDid:"has successfully completed the learning app on prompt, skill, MCP, loop and agent.", cRule:"All 9 lessons passed, each with at least 75% correct answers.", cFoot:"Ninox learning app Prompt, skill, MCP, loop, agent · Version ", cFile:"Certificate-Prompt-Skill-MCP-Loop-Agent"});
+const CERT_KEY = "prompt_skill_agent_mcp_lern_app_cert";
+function certLoad(){ try{ return JSON.parse(localStorage.getItem(CERT_KEY)) || {}; }catch(e){ return {}; } }
+function certSave(c){ try{ localStorage.setItem(CERT_KEY, JSON.stringify(c)); }catch(e){} }
+const esc_ = s => String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const allPassed = () => LEVELS.every((_,i) => passed(i));
+
+function certSvg(px){
+  const c = certLoad(), name = (c.name || "").trim();
+  const d = c.date ? new Date(c.date) : new Date();
+  const dateTxt = d.toLocaleDateString(lang === "de" ? "de-DE" : "en-GB", {day:"2-digit", month:"long", year:"numeric"});
+  const paths = [...document.querySelectorAll("footer .logo path")].map(p => '<path fill="' + (p.classList.contains("li") ? "#4970FF" : "#1F2026") + '" d="' + p.getAttribute("d") + '"/>').join("");
+  let got = 0, tot = 0; LEVELS.forEach((_,i) => { got += prog[i] || 0; tot += prog["n"+i] || L(i).f.length; });
+  const rank = RANKS[lang][RANKS[lang].length-1];
+  const F = 'font-family="Noto Sans, Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif"';
+  const fit = (s, n) => s.length > n ? s.slice(0, n-1) + "…" : s;
+  let ch = "";
+  LEVELS.forEach((_,i) => {
+    const col = i % 2, row = Math.floor(i / 2), x = 150 + col * 440, y = 474 + row * 28;
+    ch += '<circle cx="' + x + '" cy="' + (y-5) + '" r="9" fill="#4970FF"/><path d="M' + (x-4.5) + ' ' + (y-5) + 'l3.2 3.4 6-6.6" fill="none" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>'
+        + '<text x="' + (x+20) + '" y="' + y + '" font-size="15" fill="#1F2026" ' + F + '>' + esc_(fit(lbl(i) + ": " + L(i).t, 56)) + '</text>';
+  });
+  const nsz = name.length > 34 ? 30 : name.length > 24 ? 38 : 48;
+  return '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1123 794" width="' + px[0] + '"' + (px[1] === "auto" ? "" : ' height="' + px[1] + '"') + '>'
+   + '<rect width="1123" height="794" fill="#ffffff"/>'
+   + '<rect x="22" y="22" width="1079" height="750" fill="none" stroke="#4970FF" stroke-width="3"/>'
+   + '<rect x="34" y="34" width="1055" height="726" fill="none" stroke="#D8D7D1" stroke-width="1"/>'
+   + '<rect x="22" y="22" width="1079" height="10" fill="#4970FF"/>'
+   + '<svg x="70" y="62" width="150" height="40" viewBox="0 0 120 32">' + paths + '</svg>'
+   + '<text x="1053" y="88" text-anchor="end" font-size="15" font-weight="700" letter-spacing="3" fill="#2F52E0" ' + F + '>' + esc_(STR[lang].cSub.toUpperCase()) + '</text>'
+   + '<text x="561.5" y="188" text-anchor="middle" font-size="60" font-weight="700" letter-spacing="10" fill="#1F2026" ' + F + '>' + STR[lang].cHead + '</text>'
+   + '<rect x="521" y="208" width="82" height="5" rx="2.5" fill="#FF9619"/>'
+   + '<text x="561.5" y="260" text-anchor="middle" font-size="20" fill="#4D4F54" ' + F + '>' + esc_(STR[lang].cConfirm) + '</text>'
+   + '<text x="561.5" y="326" text-anchor="middle" font-size="' + nsz + '" font-weight="700" fill="' + (name ? "#1F2026" : "#B8B9BD") + '" ' + F + '>' + esc_(name || STR[lang].cNamePh) + '</text>'
+   + '<rect x="261" y="344" width="602" height="2" fill="#4970FF"/>'
+   + '<text x="561.5" y="386" text-anchor="middle" font-size="21" font-weight="600" fill="#1F2026" ' + F + '>' + esc_(STR[lang].cDid) + '</text>'
+   + '<text x="561.5" y="414" text-anchor="middle" font-size="16" fill="#4D4F54" ' + F + '>' + esc_(STR[lang].cRule) + '</text>'
+   + '<text x="561.5" y="441" text-anchor="middle" font-size="16" font-weight="600" fill="#2F52E0" ' + F + '>' + esc_(STR[lang].cScore + got + STR[lang].cScoreOf + tot + STR[lang].cScoreEnd) + '</text>'
+   + ch
+   + '<rect x="110" y="700" width="230" height="1.5" fill="#1F2026"/>'
+   + '<text x="110" y="722" font-size="14" fill="#4D4F54" ' + F + '>' + esc_(STR[lang].cDate) + '</text>'
+   + '<text x="110" y="690" font-size="19" font-weight="600" fill="#1F2026" ' + F + '>' + esc_(dateTxt) + '</text>'
+   + '<circle cx="561.5" cy="676" r="50" fill="#E6ECFF" stroke="#4970FF" stroke-width="3"/><circle cx="561.5" cy="676" r="42" fill="none" stroke="#FF9619" stroke-width="1.5" stroke-dasharray="3 4"/>'
+   + '<text x="561.5" y="668" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="2" fill="#2F52E0" ' + F + '>' + esc_(STR[lang].cRank.toUpperCase()) + '</text>'
+   + '<text x="561.5" y="692" text-anchor="middle" font-size="22" font-weight="700" fill="#1F2026" ' + F + '>' + esc_(rank) + '</text>'
+   + '<rect x="783" y="700" width="230" height="1.5" fill="#1F2026"/>'
+   + '<text x="898" y="722" text-anchor="middle" font-size="14" fill="#4D4F54" ' + F + '>' + esc_(STR[lang].cIssuer) + '</text>'
+   + '<text x="898" y="690" text-anchor="middle" font-size="19" font-weight="600" fill="#1F2026" ' + F + '>KI verstehen</text>'
+   + '<text x="561.5" y="750" text-anchor="middle" font-size="11" fill="#8A8C92" ' + F + '>' + esc_(STR[lang].cFoot + APP_VERSION) + '</text>'
+   + '</svg>';
+}
+function certRender(){ $("cprev").innerHTML = certSvg(["100%", "auto"]); }
+function certCanvas(cb){
+  const img = new Image();
+  img.onload = () => { const cv = document.createElement("canvas"); cv.width = 2480; cv.height = 1754; const x = cv.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, 2480, 1754); x.drawImage(img, 0, 0, 2480, 1754); cb(cv); };
+  img.onerror = () => { $("cmsg").textContent = "Fehler / Error"; $("cmsg").classList.remove("hide"); };
+  img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(certSvg([2480, 1754]));
+}
+function certFileName(ext){ const n = (certLoad().name || "").trim().replace(/[^\p{L}\p{N}]+/gu, "-").replace(/^-+|-+$/g, ""); return t("cFile") + (n ? "-" + n : "") + "." + ext; }
+function certSaveBlob(blob, fn){ const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = fn; document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 2000); }
+function certPdfBlob(jpeg, w, h){
+  const enc = new TextEncoder(), parts = [], offs = []; let len = 0;
+  const push = d => { const b = typeof d === "string" ? enc.encode(d) : d; parts.push(b); len += b.length; };
+  const obj = (n, body) => { offs[n] = len; push(n + " 0 obj\n" + body + "\nendobj\n"); };
+  push("%PDF-1.4\n");
+  obj(1, "<< /Type /Catalog /Pages 2 0 R >>");
+  obj(2, "<< /Type /Pages /Kids [3 0 R] /Count 1 >>");
+  obj(3, "<< /Type /Page /Parent 2 0 R /MediaBox [0 0 841.89 595.28] /Resources << /XObject << /Im0 4 0 R >> >> /Contents 5 0 R >>");
+  offs[4] = len; push("4 0 obj\n<< /Type /XObject /Subtype /Image /Width " + w + " /Height " + h + " /ColorSpace /DeviceRGB /BitsPerComponent 8 /Filter /DCTDecode /Length " + jpeg.length + " >>\nstream\n"); push(jpeg); push("\nendstream\nendobj\n");
+  const cs = "q 841.89 0 0 595.28 0 0 cm /Im0 Do Q";
+  obj(5, "<< /Length " + cs.length + " >>\nstream\n" + cs + "\nendstream");
+  const xr = len; let x = "xref\n0 6\n0000000000 65535 f \n";
+  for(let n = 1; n <= 5; n++) x += String(offs[n]).padStart(10, "0") + " 00000 n \n";
+  push(x + "trailer\n<< /Size 6 /Root 1 0 R >>\nstartxref\n" + xr + "\n%%EOF");
+  return new Blob(parts, {type: "application/pdf"});
+}
+function certDownload(kind){
+  if(!(certLoad().name || "").trim()){ $("cmsg").textContent = t("certNeed"); $("cmsg").classList.remove("hide"); $("cname").focus(); return; }
+  $("cmsg").classList.add("hide");
+  certCanvas(cv => {
+    if(kind === "png") cv.toBlob(b => certSaveBlob(b, certFileName("png")), "image/png");
+    else { const bin = atob(cv.toDataURL("image/jpeg", 0.93).split(",")[1]), u = new Uint8Array(bin.length); for(let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); certSaveBlob(certPdfBlob(u, cv.width, cv.height), certFileName("pdf")); }
+  });
+}
+function openCert(){
+  if(!allPassed()){ showMap(); return; }
+  const c = certLoad(); if(!c.date){ c.date = new Date().toISOString(); certSave(c); }
+  $("chomeT").textContent = t("home"); $("ctitle").textContent = t("certT"); $("cintro").textContent = t("certIntro");
+  $("cnameL").textContent = t("certName"); $("cname").value = c.name || ""; $("cmsg").classList.add("hide");
+  $("cpdf").textContent = t("certPdf"); $("cpng").textContent = t("certPng"); $("cnote").textContent = t("certNote"); $("cback").textContent = t("certBack");
+  certRender(); show("cert");
+}
+$("cname").oninput = () => { const c = certLoad(); c.name = $("cname").value; certSave(c); $("cmsg").classList.add("hide"); certRender(); };
+$("cpdf").onclick = () => certDownload("pdf");
+$("cpng").onclick = () => certDownload("png");
+$("chome").onclick = $("cback").onclick = showMap;
+
+$("start").onclick = startQuiz;
+$("next").onclick = () => idx < S().f.length-1 ? (idx++, frage()) : ende();
+$("back1").onclick = $("back2").onclick = $("lhome").onclick = $("ehome").onclick = showMap;
+$("qhome").onclick = () => { if(verlauf.length > 0 && !confirm(t("leaveQ"))) return; showMap(); };
+$("reset").onclick = () => {if(confirm(t("confirm"))){prog = {}; save(); try{localStorage.removeItem("prompt_skill_agent_mcp_lern_app_cert")}catch(e){} showMap();}};
+
+$("exbtn").onclick = () => {const h = $("expl").classList.toggle("hide"); $("exbtn").textContent = h ? t("exShow") : t("exHide");};
+$("back").onclick = () => {if(idx > 0){idx--; frage();}};
+$("l-de").onclick = () => setLang("de");
+$("l-en").onclick = () => setLang("en");
+$("ver").textContent = APP_VERSION;
+load();
+applyLang();
+showMap();
+
+</script>
+</body>
+</html>
