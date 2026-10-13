@@ -8,15 +8,27 @@
 - **Persönlicher Fortschritt:** liest die `localStorage`-Schlüssel der Apps (gleiche 75-%-Regel), lädt nichts hoch. Voraussetzung: Dashboard und Apps unter derselben Adresse.
 - Speicher: nur die Sprache (`ninox_university_lang`).
 
-| App | Datei | Lektionen | Fragen | Stufe |
-|---|---|---|---|---|
-| KI verstehen: Prompt, Skill, MCP, Loop, Agent | `prompt_skill_agent_mcp_lern_app.html` | 9 | 40 | Einsteiger bis Profi |
-| Skill-Trainer | `skills_lern_app.html` (Kopie von `skill_trainer.html`) | 12 | 60 | Einsteiger bis Profi |
-| Ninox-Script-Trainer | `ninox_script_lern_app.html` (Kopie von `ninox-script-trainer.html`) | 10 | 56 | Einsteiger bis Fortgeschritten |
-| Rollen und Rechte in Ninox4 | `ninox4_rollen_rechte_lern_app.html` | 8 | 37 | Einsteiger bis Profi |
+| Schritt | App | Datei | Lektionen | Fragen | Stufe |
+|---|---|---|---|---|---|
+| 1 | Professionelles Prompten | `professionelles_prompten_lern_app.html` | 10 | 45 | Einstieg bis Experte |
+| 2 | KI verstehen: Prompt, Skill, MCP, Loop, Agent | `prompt_skill_agent_mcp_lern_app.html` | 9 | 40 | Einstieg bis Profi |
+| 3 | Skill-Trainer | `skills_lern_app.html` (Kopie von `skill_trainer.html`) | 12 | 60 | Einstieg bis Profi |
+| 4 | Ninox-Script-Trainer | `ninox_script_lern_app.html` (Kopie von `ninox-script-trainer.html`) | 10 | 56 | Einstieg bis Fortgeschritten |
+| 5 | Rollen und Rechte in Ninox4 | `ninox4_rollen_rechte_lern_app.html` | 8 | 37 | Einstieg bis Profi |
 
-Lernpfade: **KI-Grundlagen** (KI verstehen, dann Skill-Trainer), **Ninox 4 verwalten** (Rollen und Rechte in Ninox4) und **Ninox Script** (Ninox-Script-Trainer). Insgesamt 4 Lern-Apps, 39 Lektionen, 193 Fragen.
+Insgesamt 5 Lern-Apps, 49 Lektionen, 238 Fragen.
 
+## Empfohlene Reihenfolge (Lehrplan) und Begründung
+
+Leitlinie: **Verstehen, Anwenden, Bauen, Absichern.** Jede App hat im Dashboard ein "Warum jetzt".
+
+1. **Professionelles Prompten** zuerst: Grundlage für alles mit KI, ohne Vorkenntnisse; die Fähigkeiten daraus braucht jede folgende App.
+2. **KI verstehen** danach: baut auf dem Prompten auf und ordnet Skill, Tools, MCP, Loop und Agent in einen Zusammenhang ein.
+3. **Skill-Trainer**: wendet den Baustein Skill praktisch an (anlegen, ablegen, prüfen); setzt Schritt 1 und 2 voraus.
+4. **Ninox-Script-Trainer**: ab hier Ninox selbst bauen; die KI-Grundlagen helfen beim Schreiben und Prüfen von Scripts.
+5. **Rollen und Rechte in Ninox4** zum Schluss: absichern, was gebaut wurde (Rollen, Rechte, Einladen, API-Schlüssel; enthält Script-Funktionen).
+
+Lernpfade im Dashboard: **Empfohlene Reihenfolge** (alle fünf), **KI-Kompetenz** (1 bis 3, auch ohne Ninox nützlich) und **Ninox 4 bauen und absichern** (4 und 5). Die Empfehlung "Als Nächstes" folgt der Gesamtreihenfolge. Alternative für Administratoren ohne Programmierung: Schritt 5 direkt nach Schritt 1; das Dashboard lässt jede Reihenfolge zu.
 ## Entscheidungen
 - **Aufgenommen** (Auswahl des Nutzers): die Ninox-Apps (zuerst drei, später "Rollen und Rechte in Ninox4"). Nicht aufgenommen: FC Bayern und Wirtschaftskreislauf (keine Ninox-Themen).
 - **Name und Adresse:** `ninox_university_dashboard`, `https://nosz.github.io/skill-trainer/ninox_university_dashboard.html`. Der ganze Ordner `ninox_university` gehört flach auf dieselbe Adresse (`https://nosz.github.io/skill-trainer/`).
@@ -39,3 +51,4 @@ Lernpfade: **KI-Grundlagen** (KI verstehen, dann Skill-Trainer), **Ninox 4 verwa
 ## Änderungsprotokoll
 - 1.0.0: Erstfassung mit drei Lern-Apps und zwei Lernpfaden.
 - 1.1.0 (inhaltlich, Datei trägt weiterhin VERSION 1.0.0): vierte App "Rollen und Rechte in Ninox4", neuer Filter "Ninox 4", neuer Lernpfad, Vorschau und Beschreibung auf vier Apps angepasst.
+- 1.2.0 (inhaltlich, Datei trägt weiterhin VERSION 1.0.0): fünfte App "Professionelles Prompten", Reihenfolge nach Lehrplan (Schritt 1 bis 5 mit "Warum jetzt"), neue Lernpfade, Vorschau und Beschreibung auf fünf Apps angepasst.

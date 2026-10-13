@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Ninox University</title>
 <meta name="theme-color" content="#f7f6f3">
-<meta name="description" content="Ninox University: alle Ninox Lern-Apps an einem Ort, mit persönlichem Fortschritt. Ninox Script, Skills, KI-Grundlagen und Rollen und Rechte in Ninox 4, vom Einstieg bis zum Profi.">
+<meta name="description" content="Ninox University: alle Ninox Lern-Apps an einem Ort, mit persönlichem Fortschritt. Prompten, KI-Grundlagen, Skills, Ninox Script und Rollen und Rechte in Ninox 4 in empfohlener Reihenfolge, vom Einstieg bis zum Profi.">
 <link rel="canonical" href="https://nosz.github.io/skill-trainer/ninox_university_dashboard.html">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Ninox University">
 <meta property="og:locale" content="de_DE">
 <meta property="og:locale:alternate" content="en_GB">
 <meta property="og:title" content="Ninox University – alle Lern-Apps an einem Ort">
-<meta property="og:description" content="Ninox Script, Skills, KI-Grundlagen und Rollen und Rechte: vier Lern-Apps mit Quiz, Zertifikat und persönlichem Fortschritt, vom Einstieg bis zum Profi.">
+<meta property="og:description" content="Prompten, KI, Skills, Ninox Script und Rollen und Rechte: fünf Lern-Apps in empfohlener Reihenfolge mit Quiz, Zertifikat und persönlichem Fortschritt.">
 <meta property="og:url" content="https://nosz.github.io/skill-trainer/ninox_university_dashboard.html">
 <meta property="og:image" content="https://nosz.github.io/skill-trainer/ninox_university_dashboard_vorschau.jpg">
 <meta property="og:image:type" content="image/jpeg">
@@ -21,7 +21,7 @@
 <meta property="og:image:alt" content="Vorschau der Ninox University mit Kreis-Symbol auf blauem Hintergrund">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ninox University – alle Lern-Apps an einem Ort">
-<meta name="twitter:description" content="Ninox Script, Skills, KI-Grundlagen und Rollen und Rechte: vier Lern-Apps mit Quiz, Zertifikat und persönlichem Fortschritt.">
+<meta name="twitter:description" content="Prompten, KI, Skills, Ninox Script und Rollen und Rechte: fünf Lern-Apps in empfohlener Reihenfolge mit Quiz und Zertifikat.">
 <meta name="twitter:image" content="https://nosz.github.io/skill-trainer/ninox_university_dashboard_vorschau.jpg">
 <meta name="twitter:image:alt" content="Vorschau der Ninox University mit Kreis-Symbol auf blauem Hintergrund">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%234970ff'/%3E%3Cpath d='M16 7 5 12l11 5 11-5z' fill='white'/%3E%3Cpath d='M9 15.5v5c0 1.6 3.1 3 7 3s7-1.4 7-3v-5l-7 3.2z' fill='white' fill-opacity='.85'/%3E%3C/svg%3E">
@@ -60,7 +60,7 @@ h2.sec{font-size:1.25rem;margin:26px 0 12px;letter-spacing:-.01em}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(310px,100%),1fr));gap:16px}
 .card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
 .card h3{margin:0 0 2px;font-size:1.15rem;line-height:1.25}
-.sub{color:var(--mute);font-size:.9rem;margin:0 0 10px}
+.sub{color:var(--mute);font-size:.9rem;margin:0 0 10px}.stepl{margin:0 0 4px;font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--brand2)}.whyp{margin:0 0 12px;font-size:.88rem;padding:8px 10px;border-radius:10px;background:var(--brandbg);color:var(--ink)}
 .card p.desc{margin:0 0 12px;color:var(--mute);font-size:.95rem}
 .ico{width:44px;height:44px;border-radius:12px;display:grid;place-items:center;background:var(--brandbg);color:var(--brand2);margin-bottom:12px}
 .ico svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -132,7 +132,17 @@ const VERSION = "1.0.0";
 // ---- Lern-Apps (neue Apps hier eintragen): file = Datei im selben Ordner, key = localStorage-Schluessel des Fortschritts,
 // q = Fragen je Lektion (Standard fuer die 75-%-Regel), cert = Schluessel des Zertifikat-Namens (json = JSON mit name, sonst Text)
 const APPS = [
- {id:"ki", file:"prompt_skill_agent_mcp_lern_app.html", key:"prompt_skill_agent_mcp_lern_app_prog_v1", cert:"prompt_skill_agent_mcp_lern_app_cert", certJson:true,
+ {id:"prompt", step:1, why:{de:"Die Grundlage für alles mit KI: Aufgaben klar, mit Kontext und mit Beispielen formulieren.", en:"The foundation for everything with AI: phrase tasks clearly, with context and with examples."}, file:"professionelles_prompten_lern_app.html", key:"professionelles_prompten_lern_app_prog_v1", cert:"professionelles_prompten_lern_app_cert", certJson:true,
+  icon:"M4 5h16v11H9l-5 4zM8 9h8M8 12h5",
+  topics:["ki"], levels:["einsteiger","fortgeschritten","profi"], minutes:55, langs:"DE · EN",
+  q:[4,5,4,5,4,5,4,5,4,5],
+  title:{de:"Professionelles Prompten", en:"Professional prompting"},
+  sub:{de:"Vom Einstieg bis zum Experten", en:"From starter to expert"},
+  desc:{de:"Klar und direkt prompten, Kontext, Beispiele, Tags und Rolle, Format, lange Dokumente, Denken und Prüfen, agentische Prompts, Testen und Absichern.", en:"Prompt clearly and directly, context, examples, tags and role, format, long documents, thinking and checking, agentic prompts, testing and securing."},
+  lessons:{de:["Was ist ein Prompt?","Klar und direkt sein","Kontext und Begründung geben","Beispiele geben","Struktur mit Tags und eine Rolle","Das Ausgabeformat steuern","Lange Dokumente und Belege","Denken, prüfen und verketten","Agentische Prompts","Profi: testen, verbessern, absichern"],
+           en:["What is a prompt?","Be clear and direct","Give context and reasons","Give examples","Structure with tags and a role","Steering the output format","Long documents and evidence","Thinking, checking and chaining","Agentic prompts","Professional: test, improve, secure"]}},
+
+ {id:"ki", step:2, why:{de:"Baut auf dem Prompten auf: die Bausteine Skill, Tools, MCP, Loop und Agent im Zusammenhang.", en:"Builds on prompting: the building blocks skill, tools, MCP, loop and agent in context."}, file:"prompt_skill_agent_mcp_lern_app.html", key:"prompt_skill_agent_mcp_lern_app_prog_v1", cert:"prompt_skill_agent_mcp_lern_app_cert", certJson:true,
   icon:"M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7",
   topics:["ki"], levels:["einsteiger","fortgeschritten","profi"], minutes:49, langs:"DE · EN",
   q:[4,4,4,5,4,5,4,5,5],
@@ -141,7 +151,7 @@ const APPS = [
   desc:{de:"Vom ersten Prompt bis zum Agenten: Kontext, Skills, Tools, MCP und die Agentenschleife, mit Beispielen und einem Abschnitt zu sicherem Arbeiten.", en:"From the first prompt to the agent: context, skills, tools, MCP and the agent loop, with examples and a section on working safely."},
   lessons:{de:["Der Prompt: deine Anweisung","Kontext: das Arbeitsgedächtnis","Skill: dein Wissen als Anleitung","Tools: die Hände der KI","MCP: der Anschluss für Werkzeuge und Daten","Der Loop: wiederholen bis fertig","Der Agent: KI, Werkzeuge und Schleife","Das Zusammenspiel: wer macht was?","Profi: sicher und zuverlässig arbeiten"],
            en:["The prompt: your instruction","Context: the working memory","Skill: your know-how as instructions","Tools: the hands of the AI","MCP: the connector for tools and data","The loop: repeat until done","The agent: AI, tools and loop","The interplay: who does what?","Professional: working safely and reliably"]}},
- {id:"skills", file:"skills_lern_app.html", key:"skillslernen_prog_v5", cert:"skillslernen_cert", certJson:true,
+ {id:"skills", step:3, why:{de:"Wendet den Baustein Skill praktisch an: eigene Skills anlegen, ablegen und prüfen.", en:"Applies the skill building block in practice: create, store and check your own skills."}, file:"skills_lern_app.html", key:"skillslernen_prog_v5", cert:"skillslernen_cert", certJson:true,
   icon:"M4 5h6l2 2h8v12H4zM9 13h6M12 10v6",
   topics:["ki"], levels:["einsteiger","profi"], minutes:68, langs:"DE · EN",
   q:[6,4,4,5,5,4,6,4,5,6,4,7],
@@ -150,7 +160,7 @@ const APPS = [
   desc:{de:"Skills anlegen, benennen, ablegen, testen und prüfen: von der Oberfläche von Claude bis zu Profi-Praxis und Best Practice.", en:"Create, name, store, test and check skills: from the Claude interface to pro practice and best practice."},
   lessons:{de:["Die Oberfläche von Claude","Terminal und Skills hochladen","Was ist ein Skill?","Aufbau eines Skills","Ordner und Ablageort","Ideen: Wofür lohnen sich Skills?","Beschreibung und Laden","Skripte und weitere Dateien","Andere KI-Systeme","Skills in der Praxis","Profi-Praxis","Tipps und Best Practice: professionell mit Skills arbeiten"],
            en:["The Claude interface","Terminal and uploading skills","What is a skill?","Structure of a skill","Folders and location","Ideas: what are skills good for?","Description and loading","Scripts and extra files","Other AI systems","Skills in practice","Pro practice","Tips and best practice: working with skills like a pro"]}},
- {id:"script", file:"ninox_script_lern_app.html", key:"ninoxscript_prog_v1", cert:"ninoxscript_name", certJson:false,
+ {id:"script", step:4, why:{de:"Jetzt Ninox selbst programmieren: die Grundlagen von Ninox Script.", en:"Now program Ninox yourself: the basics of Ninox Script."}, file:"ninox_script_lern_app.html", key:"ninoxscript_prog_v1", cert:"ninoxscript_name", certJson:false,
   icon:"M8 8l-4 4 4 4M16 8l4 4-4 4M13.5 6l-3 12",
   topics:["script"], levels:["einsteiger","fortgeschritten"], minutes:59, langs:"DE · EN",
   q:[4,5,5,6,6,6,6,6,6,6],
@@ -159,7 +169,7 @@ const APPS = [
   desc:{de:"Variablen, Bedingungen, Auswahlen, Schleifen, Funktionen, Datum und Zeit, Schreibzugriffe: die Grundlagen für Scripts, die funktionieren.", en:"Variables, conditions, selections, loops, functions, date and time, write access: the basics for scripts that work."},
   lessons:{de:["Wo Script in Ninox läuft","Variablen und Datentypen","Operatoren","Bedingungen","Datensätze auswählen","Schleifen und Listen","Texte und Zahlen","Datum und Zeit","Anlegen, ändern, löschen","Globale Funktionen und sauber arbeiten"],
            en:["Where script runs in Ninox","Variables and data types","Operators","Conditions","Selecting records","Loops and lists","Texts and numbers","Date and time","Create, change, delete","Global functions and clean work"]}},
- {id:"rollen", file:"ninox4_rollen_rechte_lern_app.html", key:"ninox4_rollen_rechte_lern_app_prog_v1", cert:"ninox4_rollen_rechte_lern_app_cert", certJson:true,
+ {id:"rollen", step:5, why:{de:"Zum Schluss absichern: Rollen, Rechte, Einladen und API-Schlüssel in Ninox 4.", en:"Finally secure it: roles, permissions, inviting and API keys in Ninox 4."}, file:"ninox4_rollen_rechte_lern_app.html", key:"ninox4_rollen_rechte_lern_app_prog_v1", cert:"ninox4_rollen_rechte_lern_app_cert", certJson:true,
   icon:"M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6zM9.5 12l2 2 3.5-4",
   topics:["ninox4"], levels:["einsteiger","fortgeschritten","profi"], minutes:45, langs:"DE · EN",
   q:[4,5,5,4,5,4,5,5],
@@ -169,22 +179,23 @@ const APPS = [
   lessons:{de:["Der Aufbau: Organisation, Workspace, App","Rollen in der Organisation","Rollen im Workspace","Custom Roles: eigene Rollen","Rechte auf App, Tabelle und Feld","Benutzer einladen und verwalten","Rollen in Ninox Script","Profi: API-Schlüssel und sicher arbeiten"],
            en:["The structure: organization, workspace, app","Roles in the organization","Roles in the workspace","Custom roles: your own roles","Permissions on app, table and field","Inviting and managing users","Roles in Ninox Script","Professional: API keys and working safely"]}}
 ];
+APPS.sort((a, b) => a.step - b.step);
 const PATHS = [
- {id:"p-ki", apps:["ki","skills"], title:{de:"KI-Grundlagen", en:"AI basics"}, desc:{de:"Erst die Bausteine verstehen, dann Skills sicher einsetzen.", en:"First understand the building blocks, then use skills safely."}},
- {id:"p-n4", apps:["rollen"], title:{de:"Ninox 4 verwalten", en:"Administering Ninox 4"}, desc:{de:"Wer darf was: Rollen, Rechte, Einladen und API-Schlüssel in Ninox 4.", en:"Who may do what: roles, permissions, inviting and API keys in Ninox 4."}},
- {id:"p-script", apps:["script"], title:{de:"Ninox Script", en:"Ninox Script"}, desc:{de:"Die Grundlagen der Ninox-Programmierung, vom Variablen-Begriff bis zu globalen Funktionen.", en:"The basics of Ninox programming, from the idea of variables to global functions."}}
+ {id:"p-all", apps:["prompt","ki","skills","script","rollen"], title:{de:"Empfohlene Reihenfolge", en:"Recommended order"}, desc:{de:"Von der Grundlage KI zum Bauen und Absichern in Ninox: Verstehen, Anwenden, Bauen, Absichern.", en:"From the AI foundation to building and securing in Ninox: understand, apply, build, secure."}},
+ {id:"p-ki", apps:["prompt","ki","skills"], title:{de:"KI-Kompetenz", en:"AI skills"}, desc:{de:"Prompten, die Bausteine verstehen und Skills sicher einsetzen. Auch ohne Ninox nützlich.", en:"Prompting, understanding the building blocks and using skills safely. Useful even without Ninox."}},
+ {id:"p-n4", apps:["script","rollen"], title:{de:"Ninox 4 bauen und absichern", en:"Building and securing Ninox 4"}, desc:{de:"Ninox Script lernen und danach Rollen, Rechte und API-Schlüssel richtig einsetzen.", en:"Learn Ninox Script and then use roles, permissions and API keys correctly."}}
 ];
 const TR = {
  de:{eyebrow:"Ninox University", h1:"Lernen, üben, nachweisen", lead:"Alle Ninox Lern-Apps an einem Ort. Dein Fortschritt zeigt sich hier automatisch, in deinem Browser gespeichert und nirgends hochgeladen.",
   ctaNew:"Jetzt starten: ", ctaGo:"Weiter lernen: ", ctaDone:"Alles geschafft: Lern-Apps wiederholen", sApps:"Lern-Apps", sLes:"Lektionen bestanden", sQ:"Fragen im Angebot", sCert:"Lern-Apps abgeschlossen",
   appsH:"Lern-Apps", pathsH:"Empfohlene Lernpfade", search:"Suchen: zum Beispiel Skill, Script, MCP", all:"Alle", fKi:"KI und Skills", fScript:"Ninox Script", fN4:"Ninox 4", fE:"Einsteiger", fF:"Fortgeschritten", fP:"Profi",
-  lE:"Einsteiger", lF:"Fortgeschritten", lP:"Profi", none:"Keine Lern-App gefunden. Suche oder Filter ändern.", stNew:"Neu", stRun:"In Arbeit", stDone:"Abgeschlossen ★", start:"Starten", cont:"Weiter lernen", again:"Wiederholen",
+  lE:"Einsteiger", lF:"Fortgeschritten", lP:"Profi", none:"Keine Lern-App gefunden. Suche oder Filter ändern.", stepOf:"Schritt {n} von {m}", whyL:"Warum jetzt: ", stNew:"Neu", stRun:"In Arbeit", stDone:"Abgeschlossen ★", start:"Starten", cont:"Weiter lernen", again:"Wiederholen",
   lessons:"Lektionen", questions:"Fragen", min:"etwa {n} Min.", of:" von ", passed:"bestanden", show:"Lektionen anzeigen", cert:"Zertifikat abgeholt", step:"Schritt ",
   foot:"Fortschritt und Zertifikate liegen im Speicher deines Browsers. Dashboard und Lern-Apps müssen dafür auf derselben Adresse liegen."},
  en:{eyebrow:"Ninox University", h1:"Learn, practise, prove it", lead:"All Ninox learning apps in one place. Your progress appears here automatically, stored in your browser and never uploaded.",
   ctaNew:"Start now: ", ctaGo:"Keep learning: ", ctaDone:"All done: repeat learning apps", sApps:"Learning apps", sLes:"Lessons passed", sQ:"Questions on offer", sCert:"Learning apps completed",
   appsH:"Learning apps", pathsH:"Recommended learning paths", search:"Search: for example skill, script, MCP", all:"All", fKi:"AI and skills", fScript:"Ninox Script", fN4:"Ninox 4", fE:"Starter", fF:"Intermediate", fP:"Pro",
-  lE:"Starter", lF:"Intermediate", lP:"Pro", none:"No learning app found. Change the search or filter.", stNew:"New", stRun:"In progress", stDone:"Completed ★", start:"Start", cont:"Keep learning", again:"Repeat",
+  lE:"Starter", lF:"Intermediate", lP:"Pro", none:"No learning app found. Change the search or filter.", stepOf:"Step {n} of {m}", whyL:"Why now: ", stNew:"New", stRun:"In progress", stDone:"Completed ★", start:"Start", cont:"Keep learning", again:"Repeat",
   lessons:"lessons", questions:"questions", min:"about {n} min", of:" of ", passed:"passed", show:"Show lessons", cert:"Certificate collected", step:"Step ",
   foot:"Progress and certificates are kept in your browser storage. The dashboard and the learning apps must be on the same address for this."}
 };
@@ -241,8 +252,8 @@ function card(a){
   const ic = el("div","ico"); ic.appendChild(ICON(a.icon)); top.appendChild(ic);
   top.appendChild(el("span","badge " + (s.status === "done" ? "b-done" : s.status === "run" ? "b-run" : "b-new"), t(s.status === "done" ? "stDone" : s.status === "run" ? "stRun" : "stNew")));
   c.appendChild(top);
-  c.appendChild(el("h3",null,a.title[lang])); c.appendChild(el("p","sub",a.sub[lang]));
-  c.appendChild(el("p","desc",a.desc[lang]));
+  c.appendChild(el("p","stepl",t("stepOf").replace("{n}",a.step).replace("{m}",APPS.length))); c.appendChild(el("h3",null,a.title[lang])); c.appendChild(el("p","sub",a.sub[lang]));
+  c.appendChild(el("p","desc",a.desc[lang])); c.appendChild(el("p","whyp",t("whyL") + a.why[lang]));
   const lv = el("div","lv"); a.levels.forEach(l => lv.appendChild(el("span","lvb", t(l === "einsteiger" ? "lE" : l === "fortgeschritten" ? "lF" : "lP")))); c.appendChild(lv);
   const m = el("div","meta"); [a.q.length + " " + t("lessons"), totalQ(a) + " " + t("questions"), t("min").replace("{n}", a.minutes), a.langs].forEach(x => m.appendChild(el("span",null,x))); c.appendChild(m);
   const pr = el("div","prog"), sm = el("small"); sm.appendChild(el("span",null,s.done + t("of") + s.total + " " + t("passed"))); if(s.name) sm.appendChild(el("span",null,"★ " + t("cert") + ": " + s.name)); pr.appendChild(sm);
